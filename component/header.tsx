@@ -22,8 +22,8 @@ const resourceLinks = [
 // Logo Component
 const Logo = () => (
   <Link href="/" className="flex items-center space-x-2">
-    <div className="flex h-8 w-8 items-center justify-center rounded-md bg-slate-900 text-white">
-      <Laptop className="h-5 w-5" />
+    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-700 text-white">
+      {/* <Laptop className="h-5 w-5" /> */}
     </div>
     <span className="text-xl font-bold tracking-tight text-slate-900">BlueTech</span>
   </Link>
@@ -54,7 +54,7 @@ const DesktopNavigation = () => (
         {link.label}
       </Link>
     ))}
-    <div className="relative group">
+    {/* <div className="relative group">
       <button className="flex items-center text-sm font-medium text-slate-600 transition-colors hover:text-blue-600">
         Resources
         <ChevronDown className="ml-1 h-4 w-4" />
@@ -70,7 +70,7 @@ const DesktopNavigation = () => (
           </Link>
         ))}
       </div>
-    </div>
+    </div> */}
   </nav>
 )
 

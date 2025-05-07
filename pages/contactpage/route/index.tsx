@@ -6,7 +6,7 @@ import ContactFAQ from "../../../component/contact/contact-faq"
 import ContactCTA from "../../../component/contact/contact-cta"
 
 export const metadata = {
-  title: "Contact Us | Tech Solutions",
+  title: "Contact Us | BlueTech",
   description: "Get in touch with our team to discuss your technology needs and how we can help your business grow.",
 }
 

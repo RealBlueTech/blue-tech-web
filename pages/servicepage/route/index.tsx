@@ -8,7 +8,7 @@ import ServicesTestimonials from "../../../component/services/services-testimoni
 import ServicesCTA from "../../../component/services/services-cta"
 
 export const metadata = {
-  title: "Services | Tech Solutions",
+  title: "Services | BlueTech",
   description: "Explore our comprehensive technology services designed to help your business innovate and grow.",
 }
 

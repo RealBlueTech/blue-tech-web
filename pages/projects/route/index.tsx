@@ -8,7 +8,7 @@ import ResultsMetrics from "../../../component/projects/results-metrics"
 import ProjectsCTA from "../../../component/projects/projects-cta"
 
 export const metadata = {
-  title: "Projects | Tech Solutions",
+  title: "Projects | BlueTech",
   description: "Explore our portfolio of successful technology projects across various industries.",
 }
 

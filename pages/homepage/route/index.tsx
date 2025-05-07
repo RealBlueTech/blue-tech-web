@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import Hero from "../../../component/homepage/hero";
 import About from "../../../component/homepage/about";
 import Projects from "../../../component/homepage/projects";
@@ -8,8 +6,6 @@ import Stats from "../../../component/homepage/stats";
 import Testimonials from "../../../component/homepage/testimonials";
 import VideoSection from "../../../component/homepage/video-section";
 
-import Header from "../../../component/header";
-import Footer from "../../../component/footer";
 
 
 

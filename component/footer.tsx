@@ -46,7 +46,7 @@ export default function Footer() {
                     <path d="M7 7h10v10H7z" />
                   </svg>
                 </div>
-                <span className="text-xl font-bold text-white">TECH SOLUTIONS</span>
+                <span className="text-xl font-bold text-white">BlueTech</span>
               </div>
               <p className="mb-4 text-slate-400">
                 Providing cutting-edge technology solutions to help businesses innovate, optimize, and grow in the
@@ -155,7 +155,7 @@ export default function Footer() {
       <div className="relative z-10 border-t border-slate-800 bg-slate-900/50">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col items-center justify-between space-y-4 text-center sm:flex-row sm:space-y-0 sm:text-left">
-            <div className="text-sm text-slate-500">&copy; {currentYear} Tech Solutions. All rights reserved.</div>
+            <div className="text-sm text-slate-500">&copy; {currentYear} BlueTech. All rights reserved.</div>
             <div className="flex space-x-4 text-sm text-slate-500">
               <Link href="#privacy" className="hover:text-white">
                 Privacy Policy

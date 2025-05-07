@@ -28,7 +28,7 @@ export default function AboutHero() {
               src="/placeholder.svg?height=720&width=1280"
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1280px"
-              alt="Our team at Tech Solutions headquarters"
+              alt="Our team at BlueTech headquarters"
               className="object-cover"
               priority
             />
