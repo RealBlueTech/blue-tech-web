@@ -8,6 +8,9 @@ import Stats from "../../../component/homepage/stats";
 import Testimonials from "../../../component/homepage/testimonials";
 import VideoSection from "../../../component/homepage/video-section";
 
+import Header from "../../../component/header";
+import Footer from "../../../component/footer";
+
 
 
 export default function Home() {
