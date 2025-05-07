@@ -15,7 +15,7 @@ export default function About() {
           <div className="relative order-2 lg:order-1">
             <div className="relative overflow-hidden rounded-2xl shadow-xl">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="https://img.freepik.com/free-photo/business-handshake-world-map_23-2151966716.jpg?t=st=1746628016~exp=1746631616~hmac=f33ec64d25347f48ffab6d10bc254d196b3f777bfff7018ad57f4565edff3b75&w=826"
                 width={800}
                 height={600}
                 alt="About our technology company"

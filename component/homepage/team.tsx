@@ -4,8 +4,8 @@ import { Linkedin, Twitter, Mail } from "lucide-react"
 export default function Team() {
   const teamMembers = [
     {
-      name: "John Doe",
-      role: "CEO & Founder",
+      name: "Baraka Nampellah",
+      role: "Software Engineer",
       bio: "15+ years of experience in technology leadership and business strategy.",
       image: "/placeholder.svg?height=400&width=400",
       social: {
@@ -15,8 +15,8 @@ export default function Team() {
       },
     },
     {
-      name: "Jane Smith",
-      role: "CTO",
+      name: "Daniel Ntunduye",
+      role: "Software Engineer",
       bio: "Expert in cloud architecture and emerging technologies.",
       image: "/placeholder.svg?height=400&width=400",
       social: {
@@ -26,8 +26,8 @@ export default function Team() {
       },
     },
     {
-      name: "Peter Jones",
-      role: "Lead Developer",
+      name: "Moses Mbaraka",
+      role: "Software Engineer",
       bio: "Full-stack developer specializing in scalable web applications.",
       image: "/placeholder.svg?height=400&width=400",
       social: {
@@ -37,8 +37,8 @@ export default function Team() {
       },
     },
     {
-      name: "Mary Brown",
-      role: "Project Manager",
+      name: "Suleman Mbaraka",
+      role: "Software Engineer",
       bio: "Certified PMP with expertise in agile methodologies.",
       image: "/placeholder.svg?height=400&width=400",
       social: {

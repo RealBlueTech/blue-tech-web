@@ -65,7 +65,7 @@ export default function Hero() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl shadow-xl">
               <Image
-                src="/images/hero-tech.jpg"
+                src="https://img.freepik.com/free-photo/person-working-html-computer_23-2150038846.jpg?t=st=1746627570~exp=1746631170~hmac=5f2b36091fe41b79385e61f38381acbadee16448c86cfbe944558168557f8aad&w=2000"
                 width={800}
                 height={600}
                 alt="BlueTech technology solutions"

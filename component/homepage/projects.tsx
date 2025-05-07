@@ -4,25 +4,25 @@ import { ArrowRight } from "lucide-react"
 export default function Projects() {
   const projects = [
     {
-      title: "Project Alpha",
-      description: "A comprehensive enterprise resource planning system for manufacturing companies.",
+      title: "Phamacy Management System",
+      description: "A comprehensive system for managing pharmacy operations, including inventory tracking, prescription management, and patient records.",
       category: "Web Application",
       technologies: ["React", "Node.js", "PostgreSQL"],
-      image: "/placeholder.svg?height=600&width=800",
+      image: "https://img.freepik.com/free-photo/african-american-woman-pharmacist-standing-with-serious-expression-pharmacy_839833-20088.jpg?t=st=1746628333~exp=1746631933~hmac=9eb46f7b890098aa3d4569ce560f94e35a42e205f2dc8b7054c4aff5bbcb5624&w=2000",
     },
     {
-      title: "Project Beta",
-      description: "Mobile application for real-time inventory management and tracking.",
+      title: "Garage Management System",
+      description: "Complete solution for automotive repair shops, handling service scheduling, customer management, and vehicle maintenance tracking.",
       category: "Mobile App",
       technologies: ["React Native", "Firebase", "AWS"],
-      image: "/placeholder.svg?height=600&width=800",
+      image: "https://img.freepik.com/free-photo/repairman-showing-customer-car-changes_482257-76100.jpg?t=st=1746628383~exp=1746631983~hmac=a3938c1fb065b7776fe643de3e75d5b59a048bfdddb6a9129e608c8a314e8dd9&w=2000",
     },
     {
-      title: "Project Gamma",
-      description: "Cloud-based data analytics platform with advanced visualization capabilities.",
+      title: "Point of Sale System",
+      description: "Modern retail management system with real-time sales tracking, inventory management, and customer relationship features.",
       category: "Data Platform",
       technologies: ["Python", "TensorFlow", "Google Cloud"],
-      image: "/placeholder.svg?height=600&width=800",
+      image: "https://img.freepik.com/free-photo/focused-african-american-cashier-scanning-goods-checkout_74855-3409.jpg?t=st=1746628475~exp=1746632075~hmac=6c7d8a02e7baab8c21ec88ba68afe23a008dffadff89b349c6b8b930b4c0906d&w=2000",
     },
   ]
 
