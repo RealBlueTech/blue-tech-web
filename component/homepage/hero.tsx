@@ -65,14 +65,13 @@ export default function Hero() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl shadow-xl">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/images/hero-tech.jpg"
                 width={800}
                 height={600}
-                alt="Business technology solutions"
+                alt="BlueTech technology solutions"
                 className="h-auto w-full object-cover"
-                priority
               />
-              <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/20 to-transparent opacity-60"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-900/20 to-transparent opacity-60"></div>
             </div>
 
             {/* Floating stats card */}
