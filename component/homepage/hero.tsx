@@ -107,7 +107,7 @@ export default function Hero() {
                 ))}
               </div>
               <span>
-                Trusted by <span className="font-semibold">500+</span> businesses worldwide
+                Trusted by <span className="font-semibold">10+</span> businesses worldwide
               </span>
             </motion.div>
           </div>

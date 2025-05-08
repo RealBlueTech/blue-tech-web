@@ -1,6 +1,9 @@
 import Image from "next/image"
 import { Target, Eye, CheckCircle } from "lucide-react"
 
+
+const imageUrl = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
 export default function About() {
   return (
     <section className="relative overflow-hidden bg-white py-20">
@@ -15,7 +18,7 @@ export default function About() {
           <div className="relative order-2 lg:order-1">
             <div className="relative overflow-hidden rounded-2xl shadow-xl">
               <Image
-                src="https://img.freepik.com/free-photo/business-handshake-world-map_23-2151966716.jpg?t=st=1746628016~exp=1746631616~hmac=f33ec64d25347f48ffab6d10bc254d196b3f777bfff7018ad57f4565edff3b75&w=826"
+                src={imageUrl}
                 width={800}
                 height={600}
                 alt="About our technology company"
