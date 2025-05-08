@@ -4,9 +4,15 @@ import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 import { motion } from "framer-motion"
 
+
+import Lottie from 'lottie-react';
+import animationData from '../../public/therealstartup.json'; // or wherever your JSON is
+
+
+
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-white py-20 md:py-28 min-h-screen">
+    <section className="relative overflow-hidden bg-white py-8 md:py-12 min-h-screen">
       {/* Background subtle pattern */}
       <div className="absolute inset-0 z-0">
         <div className="absolute -left-40 -top-40 h-96 w-96 rounded-full bg-gradient-to-r from-blue-50 to-blue-100 opacity-60 blur-3xl" />
@@ -112,18 +118,11 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="relative"
           >
-            <div className="relative overflow-hidden rounded-2xl shadow-2xl">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-emerald-500 to-blue-500 opacity-20 blur-sm"></div>
+            <div className="relative overflow-hidden rounded-2xl">
+              {/* <div className="absolute -inset-0.5 bg-gradient-to-r from-emerald-500 to-blue-500 opacity-20 blur-sm"></div> */}
               <div className="relative overflow-hidden rounded-2xl">
-                <Image
-                  src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169850.jpg?t=st=1746633640~exp=1746637240~hmac=5feb148ff8e3ad9fe91979176410067f42be44a1ec3c373821808cb8ef7db20e&w=2000"
-                  width={800}
-                  height={600}
-                  alt="Business technology solutions"
-                  className="h-auto w-full object-cover"
-                  priority
-                />
-                <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/30 to-slate-900/10"></div>
+              <Lottie width={100} animationData={animationData} loop={true} />
+                {/* <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/30 to-slate-900/10"></div> */}
               </div>
             </div>
 
