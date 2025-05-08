@@ -48,9 +48,9 @@ export default function Hero() {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 className="mb-6 text-5xl font-bold tracking-tight text-slate-900 sm:text-6xl md:text-7xl"
               >
-                Welcome to <br />
+                Innovate. Integrate. <br />
                 <span className="bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">
-                  Tech Excellence
+                Ignite.
                 </span>
               </motion.h1>
               <motion.p
@@ -59,7 +59,14 @@ export default function Hero() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="text-xl text-slate-600 md:text-2xl"
               >
-                Transforming businesses with cutting-edge technology solutions designed for the modern enterprise.
+                <motion.span
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                >
+                  Your Vision, Our Tech, Limitless Possibilities.<br /> Solutions That Scale With Your Business.
+                </motion.span>
+
               </motion.p>
             </div>
 

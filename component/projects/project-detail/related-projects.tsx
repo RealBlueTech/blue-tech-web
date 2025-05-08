@@ -1,23 +1,57 @@
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
-import { projects } from "../../data/projects"
 
-export default function ProjectsGrid() {
-
+export default function RelatedProjects({ currentProjectId }: { currentProjectId: string }) {
+  // This would typically come from a database or API
+  // For now, we're using mock data
+  const relatedProjects = [
+    {
+      id: "healthcare-app",
+      title: "Healthcare Mobile App",
+      description: "Patient management mobile application for a healthcare provider.",
+      category: "Mobile App",
+      image: "/placeholder.svg?height=600&width=800",
+    },
+    {
+      id: "telemedicine-platform",
+      title: "Telemedicine Platform",
+      description: "Virtual healthcare consultation platform.",
+      category: "Web Application",
+      image: "/placeholder.svg?height=600&width=800",
+    },
+    {
+      id: "medical-records",
+      title: "Electronic Medical Records",
+      description: "Secure electronic medical records system for hospitals.",
+      category: "Web Application",
+      image: "/placeholder.svg?height=600&width=800",
+    },
+  ].filter((project) => project.id !== currentProjectId)
 
   return (
-    <section id="projects-grid" className="relative overflow-hidden bg-slate-50 py-20">
+    <section className="relative overflow-hidden bg-slate-50 py-20">
       {/* Background subtle pattern */}
       <div className="absolute inset-0 z-0 opacity-[0.03]">
-        <div className="absolute left-1/4 bottom-0 h-80 w-80 rounded-full bg-gradient-to-t from-slate-200 to-slate-300" />
-        <div className="absolute right-1/3 top-0 h-64 w-64 rounded-full bg-gradient-to-b from-slate-200 to-slate-300" />
+        <div className="absolute right-1/4 bottom-0 h-80 w-80 rounded-full bg-gradient-to-t from-slate-200 to-slate-300" />
+        <div className="absolute left-1/3 top-0 h-64 w-64 rounded-full bg-gradient-to-b from-slate-200 to-slate-300" />
       </div>
 
       <div className="container relative z-10 mx-auto px-4">
+        <div className="mx-auto max-w-3xl text-center">
+          <div className="mb-3 inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-600 shadow-sm">
+            <span className="mr-2 inline-block h-2 w-2 rounded-full bg-blue-500"></span>
+            Explore More
+          </div>
+          <h2 className="mb-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Related Projects</h2>
+          <p className="mb-12 text-lg text-slate-600">
+            Discover other healthcare technology solutions we've developed for our clients.
+          </p>
+        </div>
+
         <div className="mx-auto max-w-6xl">
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {projects.map((project, index) => (
+          <div className="grid gap-8 md:grid-cols-3">
+            {relatedProjects.map((project, index) => (
               <Link
                 key={index}
                 href={`/projects/${project.id}`}
@@ -39,7 +73,6 @@ export default function ProjectsGrid() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <div className="mb-2 text-xs font-medium text-blue-600">{project.industry}</div>
                   <h3 className="mb-2 text-xl font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
                     {project.title}
                   </h3>
