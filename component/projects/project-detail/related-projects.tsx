@@ -1,33 +1,13 @@
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
+import { projects } from "../../../data/projects"
 
 export default function RelatedProjects({ currentProjectId }: { currentProjectId: string }) {
-  // This would typically come from a database or API
-  // For now, we're using mock data
-  const relatedProjects = [
-    {
-      id: "healthcare-app",
-      title: "Healthcare Mobile App",
-      description: "Patient management mobile application for a healthcare provider.",
-      category: "Mobile App",
-      image: "/placeholder.svg?height=600&width=800",
-    },
-    {
-      id: "telemedicine-platform",
-      title: "Telemedicine Platform",
-      description: "Virtual healthcare consultation platform.",
-      category: "Web Application",
-      image: "/placeholder.svg?height=600&width=800",
-    },
-    {
-      id: "medical-records",
-      title: "Electronic Medical Records",
-      description: "Secure electronic medical records system for hospitals.",
-      category: "Web Application",
-      image: "/placeholder.svg?height=600&width=800",
-    },
-  ].filter((project) => project.id !== currentProjectId)
+  // Filter out the current project and get up to 3 related projects
+  const relatedProjects = projects
+    .filter((project) => project.id !== currentProjectId)
+    .slice(0, 3)
 
   return (
     <section className="relative overflow-hidden bg-slate-50 py-20">
@@ -45,21 +25,21 @@ export default function RelatedProjects({ currentProjectId }: { currentProjectId
           </div>
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Related Projects</h2>
           <p className="mb-12 text-lg text-slate-600">
-            Discover other healthcare technology solutions we've developed for our clients.
+            Discover other technology solutions we've developed for our clients.
           </p>
         </div>
 
         <div className="mx-auto max-w-6xl">
           <div className="grid gap-8 md:grid-cols-3">
-            {relatedProjects.map((project, index) => (
+            {relatedProjects.map((project) => (
               <Link
-                key={index}
+                key={project.id}
                 href={`/projects/${project.id}`}
                 className="group overflow-hidden rounded-xl border border-slate-100 bg-white shadow-sm transition-all hover:shadow-md"
               >
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     alt={project.title}

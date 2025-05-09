@@ -15,7 +15,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "pharmacy-management",
-    title: "Pharmacy Management System",
+    title: "Famasi - Pharmacy Management System",
     description: "A comprehensive system for managing pharmacy operations, including inventory tracking, prescription management, and patient records.",
     category: "Web Application",
     technologies: ["React", "Node.js", "PostgreSQL"],
@@ -49,7 +49,7 @@ export const projects: Project[] = [
   },
   {
     id: "garage-management",
-    title: "Garage Management System",
+    title: "Auto Repair Management System",
     description: "Complete solution for automotive repair shops, handling service scheduling, customer management, and vehicle maintenance tracking.",
     category: "Mobile App",
     technologies: ["React Native", "Firebase", "AWS"],
@@ -83,12 +83,12 @@ export const projects: Project[] = [
   },
   {
     id: "pos-system",
-    title: "Point of Sale System",
+    title: "Daftari - Point of Sale System",
     description: "Modern retail management system with real-time sales tracking, inventory management, and customer relationship features.",
     category: "Data Platform",
     technologies: ["Python", "TensorFlow", "Google Cloud"],
-    image: "https://img.freepik.com/free-photo/focused-african-american-cashier-scanning-goods-checkout_74855-3409.jpg?t=st=1746628475~exp=1746632075~hmac=6c7d8a02e7baab8c21ec88ba68afe23a008dffadff89b349c6b8b930b4c0906d&w=2000",
-    longDescription: "An advanced point of sale system that combines traditional retail management with cutting-edge AI capabilities for predictive analytics and inventory optimization.",
+    image: "/pos.jpg",
+      longDescription: "An advanced point of sale system that combines traditional retail management with cutting-edge AI capabilities for predictive analytics and inventory optimization.",
     features: [
       "Real-time sales tracking and analytics",
       "AI-powered inventory management",
@@ -117,11 +117,11 @@ export const projects: Project[] = [
   },
   {
     id: "fleetrun",
-    title: "FleetRun",
+    title: "FleetRun - Trucking Management System",
     description: "A comprehensive fleet management system designed to help companies manage their trucking operations efficiently, including driver management, truck tracking, and incident management.",
     category: "Enterprise Platform",
     technologies: ["React", "Node.js", "PostgreSQL", "AWS"],
-    image: "https://img.freepik.com/free-photo/truck-driving-highway_23-2148515087.jpg?t=st=1746628533~exp=1746632133~hmac=9eb46f7b890098aa3d4569ce560f94e35a42e205f2dc8b7054c4aff5bbcb5624&w=2000",
+    image: "/fleetRun.jpg",
     longDescription: "FleetRun is a state-of-the-art fleet management platform that revolutionizes how companies manage their trucking operations. It provides comprehensive tools for driver management, truck tracking, incident management, and analytics, all designed to optimize fleet operations and improve efficiency.",
     features: [
       "Driver management with performance tracking and incident monitoring",
