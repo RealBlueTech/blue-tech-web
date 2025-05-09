@@ -453,7 +453,7 @@ export const services: Service[] = [
     shortDescription:
       "Providing scalable, secure cloud solutions that optimize operations and reduce infrastructure costs.",
     longDescription: "",
-    image: "",
+    image: "/cloud.jpg",
     features: [],
     benefits: [],
     pricing: [],
