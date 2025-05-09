@@ -861,7 +861,7 @@ export const services: Service[] = [
     shortDescription:
       "Transforming your raw data into actionable insights that drive better business decisions and outcomes.",
     longDescription: "",
-    image: "",
+    image: "/analysis.jpg",
     features: [
       {
         title: "Data Collection and Integration",
@@ -1095,7 +1095,7 @@ export const services: Service[] = [
     shortDescription:
       "Developing bespoke software solutions that address your unique business challenges and needs.",
     longDescription: "",
-    image: "",
+    image: "/dev.jpg",
     features: [
       {
         title: "Tailored solutions",
