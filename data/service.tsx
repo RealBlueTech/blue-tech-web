@@ -1712,13 +1712,215 @@ export const services: Service[] = [
       "Offering strategic guidance to align your technology investments with your business objectives.",
     longDescription: "",
     image: "",
-    features: [],
-    benefits: [],
-    pricing: [],
-    process: [],
-    technologies: [],
-    faq: [],
-    caseStudies: [],
+    features: [
+      {
+        title: "Technology assessment",
+        description:
+          "We evaluate your current IT infrastructure to identify areas for improvement and optimization.",
+      },
+      {
+        title: "Strategic IT planning",
+        description:
+          "We help develop a roadmap to align your IT initiatives with business goals, ensuring long-term success.",
+      },
+      {
+        title: "Digital transformation",
+        description:
+          "Guiding your business through the process of adopting modern technologies to improve efficiency and scalability.",
+      },
+      {
+        title: "Cloud strategy",
+        description:
+          "Helping you move to the cloud with a focus on cost efficiency, security, and scalability.",
+      },
+      {
+        title: "IT project management",
+        description:
+          "Providing expert management to ensure your IT projects are completed on time and within budget.",
+      },
+      {
+        title: "Cybersecurity planning",
+        description:
+          "We help you develop robust cybersecurity strategies to protect your business from potential threats.",
+      },
+      {
+        title: "Change management",
+        description:
+          "Supporting your organization through technological changes to ensure smooth transitions and employee adoption.",
+      },
+      {
+        title: "Vendor selection",
+        description:
+          "Assisting in choosing the right technology vendors and solutions for your business needs.",
+      },
+    ],
+
+    benefits: [
+      "Optimized IT infrastructure for improved business performance",
+      "Cost savings by streamlining and modernizing technology systems",
+      "Improved alignment between technology and business goals",
+      "Scalable solutions to meet growing business needs",
+      "Enhanced security with robust cybersecurity strategies",
+      "Faster decision-making through data-driven insights",
+      "Increased competitiveness by leveraging emerging technologies",
+      "Expert guidance to navigate digital transformation successfully",
+    ],
+
+    pricing: [
+      {
+        tier: "Basic",
+        price: "$5,000",
+        period: "starting at",
+        features: [
+          "Initial IT assessment",
+          "Basic strategy recommendations",
+          "1-month support",
+          "Cloud migration consulting",
+        ],
+      },
+      {
+        tier: "Professional",
+        price: "$15,000",
+        period: "starting at",
+        features: [
+          "In-depth IT infrastructure audit",
+          "Customized IT roadmap",
+          "3-month support",
+          "Security and risk management strategy",
+          "Cloud strategy implementation",
+        ],
+        isPopular: true,
+      },
+      {
+        tier: "Enterprise",
+        price: "$30,000+",
+        period: "starting at",
+        features: [
+          "Full-scale IT transformation strategy",
+          "Ongoing IT optimization and support",
+          "Advanced cybersecurity planning",
+          "Vendor selection and management",
+          "12-month support and monitoring",
+        ],
+      },
+    ],
+
+    process: [
+      {
+        step: 1,
+        title: "Discovery",
+        description:
+          "We start by understanding your business objectives, IT infrastructure, and technology challenges through detailed discussions.",
+      },
+      {
+        step: 2,
+        title: "Assessment",
+        description:
+          "We perform a comprehensive audit of your current IT environment, identifying areas for improvement and opportunities for optimization.",
+      },
+      {
+        step: 3,
+        title: "Strategy Development",
+        description:
+          "Based on the assessment, we develop a tailored IT strategy aligned with your business goals, technology needs, and growth plans.",
+      },
+      {
+        step: 4,
+        title: "Implementation Planning",
+        description:
+          "We create a roadmap for executing the strategy, outlining key milestones, timelines, and resources required for successful implementation.",
+      },
+      {
+        step: 5,
+        title: "Execution",
+        description:
+          "Our team works alongside your staff to implement the strategy, overseeing the deployment of new systems, technologies, and processes.",
+      },
+      {
+        step: 6,
+        title: "Monitoring & Optimization",
+        description:
+          "After implementation, we monitor the system's performance, ensuring that everything is functioning as planned and optimizing it as needed.",
+      },
+      {
+        step: 7,
+        title: "Ongoing Support",
+        description:
+          "We provide continuous support and maintenance to ensure your IT systems remain aligned with your business goals and evolve with changing needs.",
+      },
+    ],
+
+    technologies: [
+      {
+        name: "Microsoft Azure",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Amazon Web Services (AWS)",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Google Cloud Platform (GCP)",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Salesforce",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "VMware",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Docker",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Kubernetes",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "ServiceNow",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+    ],
+
+    faq: [
+      {
+        question: "What is IT consulting?",
+        answer:
+          "IT consulting involves expert advice and guidance to help businesses align their technology infrastructure with their strategic objectives. It focuses on optimizing IT systems, processes, and resources to drive business efficiency and success.",
+      },
+      {
+        question: "How can IT consulting help my business?",
+        answer:
+          "IT consulting can provide insights into the latest technologies, improve your IT infrastructure, help streamline processes, reduce costs, and align your technology investments with your long-term business goals.",
+      },
+      {
+        question:
+          "How long does it take to implement an IT consulting strategy?",
+        answer:
+          "The timeline for implementing an IT consulting strategy depends on the complexity of your business needs and goals. Typically, it ranges from a few weeks to several months, with a focus on thorough analysis, planning, and execution.",
+      },
+      {
+        question: "Do you provide ongoing support after the consulting phase?",
+        answer:
+          "Yes, we offer continued support to help with the implementation of the recommended strategies, monitor performance, and make adjustments as necessary to ensure success in the long term.",
+      },
+      {
+        question: "What industries do you provide IT consulting for?",
+        answer:
+          "We offer IT consulting services for a wide range of industries, including healthcare, finance, retail, education, manufacturing, and more. Our strategies are tailored to meet the unique needs of each industry.",
+      },
+    ],
+
+    caseStudies: [
+      "ecommerce-it-strategy",
+      "financial-services-it-transformation",
+      "healthcare-it-infrastructure",
+      "education-technology-consulting",
+      "manufacturing-digital-transformation",
+    ],
   },
   {
     id: "ui-ux-design",
