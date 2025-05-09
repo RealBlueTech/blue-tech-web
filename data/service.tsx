@@ -1308,7 +1308,7 @@ export const services: Service[] = [
     shortDescription:
       "Creating comprehensive digital roadmaps that align technology initiatives with your business objectives.",
     longDescription: "",
-    image: "",
+    image: "/strategy.jpg",
     features: [
       {
         title: "Comprehensive digital roadmap",
