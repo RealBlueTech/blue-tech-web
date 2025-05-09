@@ -42,7 +42,7 @@ export default function About() {
                 </div>
                 <div>
                   <p className="text-xs text-slate-500">Years of Experience</p>
-                  <p className="text-xl font-bold text-slate-900">15+</p>
+                  <p className="text-xl font-bold text-slate-900">5+</p>
                 </div>
               </div>
             </div>

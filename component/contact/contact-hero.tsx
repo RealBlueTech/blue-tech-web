@@ -23,7 +23,7 @@ export default function ContactHero() {
             your business grow.
           </p>
 
-          <div className="relative mx-auto mt-12 aspect-[16/9] max-w-4xl overflow-hidden rounded-xl shadow-xl">
+          {/* <div className="relative mx-auto mt-12 aspect-[16/9] max-w-4xl overflow-hidden rounded-xl shadow-xl">
             <Image
               src="/placeholder.svg?height=720&width=1280"
               fill
@@ -33,7 +33,7 @@ export default function ContactHero() {
               priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -1,41 +1,19 @@
-import { Globe, Smartphone, Cloud, Shield, Briefcase, Palette, ArrowRight } from "lucide-react"
+"use client"
+import { ArrowRight } from "lucide-react"
+import { getAllServices } from "../../data/service"
+import { useEffect, useState } from "react"
 
 export default function Services() {
-  const services = [
-    {
-      title: "Web Development",
-      description:
-        "Building responsive, high-performance websites and web applications tailored to your business needs.",
-      icon: <Globe className="h-6 w-6" />,
-    },
-    {
-      title: "Mobile App Development",
-      description:
-        "Creating intuitive native and cross-platform mobile applications that engage users and drive results.",
-      icon: <Smartphone className="h-6 w-6" />,
-    },
-    {
-      title: "Cloud Computing",
-      description:
-        "Providing scalable, secure cloud solutions that optimize operations and reduce infrastructure costs.",
-      icon: <Cloud className="h-6 w-6" />,
-    },
-    {
-      title: "Cyber Security",
-      description: "Implementing robust security measures to protect your valuable data and systems from threats.",
-      icon: <Shield className="h-6 w-6" />,
-    },
-    {
-      title: "IT Consulting",
-      description: "Offering strategic guidance to align your technology investments with your business objectives.",
-      icon: <Briefcase className="h-6 w-6" />,
-    },
-    {
-      title: "UI/UX Design",
-      description: "Designing intuitive, engaging user interfaces that enhance user satisfaction and conversion rates.",
-      icon: <Palette className="h-6 w-6" />,
-    },
-  ]
+  const [services, setServices] = useState<any[]>([]);
+
+  useEffect(() => {
+    async function fetchServices() {
+      const fetchedServices = await getAllServices();
+      setServices(fetchedServices);
+    }
+
+    fetchServices();
+  }, []);
 
   return (
     <section className="relative overflow-hidden bg-slate-50 py-20">
@@ -71,11 +49,15 @@ export default function Services() {
               </div>
               <h3 className="mb-3 text-xl font-semibold text-slate-900">{service.title}</h3>
               <p className="text-slate-600">{service.description}</p>
-
-              <div className="mt-4 flex items-center text-sm font-medium text-slate-500 group-hover:text-blue-600 transition-colors">
+              <a
+                href={`/service/${service.id}`}
+                aria-hidden="true"
+              >
+              <div  className="mt-4 flex items-center text-sm font-medium text-slate-500 group-hover:text-blue-600 transition-colors">
                 <span>Learn more</span>
                 <ArrowRight className="ml-1 h-4 w-4" />
               </div>
+              </a>
 
               {/* Decorative corner */}
               <div className="absolute -bottom-1 -right-1 h-12 w-12 overflow-hidden">
@@ -87,7 +69,7 @@ export default function Services() {
 
         <div className="mt-12 text-center">
           <a
-            href="#contact"
+            href={`/services`}
             className="inline-flex items-center justify-center rounded-md bg-slate-900 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2"
           >
             Discuss Your Project

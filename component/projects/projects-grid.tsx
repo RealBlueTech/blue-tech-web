@@ -20,7 +20,7 @@ export default function ProjectsGrid() {
             {projects.map((project, index) => (
               <Link
                 key={index}
-                href={`/projects/${project.id}`}
+                href={`/project/${project.id}`}
                 className="group overflow-hidden rounded-xl border border-slate-100 bg-white shadow-sm transition-all hover:shadow-md"
               >
                 <div className="relative aspect-[4/3] overflow-hidden">
@@ -39,7 +39,7 @@ export default function ProjectsGrid() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <div className="mb-2 text-xs font-medium text-blue-600">{project.industry}</div>
+                  <div className="mb-2 text-xs font-medium text-blue-600">{project.category}</div>
                   <h3 className="mb-2 text-xl font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
                     {project.title}
                   </h3>

@@ -108,18 +108,18 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <MapPin className="mr-3 h-5 w-5 flex-shrink-0 text-blue-400" />
-                  <span className="text-slate-400">123 Tech Street, Innovation District, CA 94103</span>
+                  <span className="text-slate-400">Msasani, Bonde la mpunga</span>
                 </li>
                 <li className="flex items-center">
                   <Mail className="mr-3 h-5 w-5 flex-shrink-0 text-blue-400" />
-                  <a href="mailto:info@techsolutions.com" className="text-slate-400 hover:text-white">
-                    info@techsolutions.com
+                  <a href="mailto:info@bluetech.software" className="text-slate-400 hover:text-white">
+                    info@bluetech.software
                   </a>
                 </li>
                 <li className="flex items-center">
                   <Phone className="mr-3 h-5 w-5 flex-shrink-0 text-blue-400" />
-                  <a href="tel:+11234567890" className="text-slate-400 hover:text-white">
-                    (123) 456-7890
+                  <a href="tel:+255742147567" className="text-slate-400 hover:text-white">
+                  (074) 214-7567 
                   </a>
                 </li>
               </ul>

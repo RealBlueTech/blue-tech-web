@@ -6,16 +6,16 @@ export default function ContactInfo() {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
       details: [
-        { label: "Main Office", value: "(123) 456-7890" },
-        { label: "Support", value: "(123) 456-7891" },
+        { label: "Main Office", value: "(074) 214-7567" },
+        { label: "Support", value: "(074) 214-7567" },
       ],
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
       details: [
-        { label: "General Inquiries", value: "info@techsolutions.com" },
-        { label: "Support", value: "support@techsolutions.com" },
+        { label: "General Inquiries", value: "general@bluetech.software" },
+        { label: "Support", value: "support@bluetech.software" },
       ],
     },
     {
@@ -30,8 +30,8 @@ export default function ContactInfo() {
       icon: <MapPin className="h-6 w-6" />,
       title: "Headquarters",
       details: [
-        { label: "Address", value: "123 Tech Street, Innovation District" },
-        { label: "City", value: "San Francisco, CA 94103" },
+        { label: "Address", value: "Msasani, Bonde la Mpunga" },
+        { label: "City", value: "Dar Es salaam, Tanzania" },
       ],
     },
   ]

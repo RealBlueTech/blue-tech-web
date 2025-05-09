@@ -4,10 +4,10 @@ import { Linkedin, Twitter, Mail } from "lucide-react"
 export default function TeamSection() {
   const leadershipTeam = [
     {
-      name: "John Doe",
-      role: "CEO & Founder",
-      bio: "With over 20 years of experience in technology and business leadership, John founded BlueTech with a vision to help businesses leverage technology for growth and innovation.",
-      image: "/images/team/ceo.jpg",
+      name: "Baraka Nampellah",
+      role: "Software Engineer",
+      bio: "With over +5 years of experience in technology ",
+      image: "/nampellah.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -15,10 +15,10 @@ export default function TeamSection() {
       },
     },
     {
-      name: "Jane Smith",
-      role: "CTO",
-      bio: "Jane leads our technology strategy and innovation initiatives. Her expertise in cloud architecture, AI, and emerging technologies helps our clients stay ahead of the curve.",
-      image: "/images/team/cto.jpg",
+      name: "Daniel Ntudunye",
+      role: "Software Engineer",
+      bio: "Danny leads our technology strategy and innovation initiatives. His expertise in cloud architecture, AI, and emerging technologies helps our clients stay ahead of the curve.",
+      image: "/danny.jpeg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -26,10 +26,10 @@ export default function TeamSection() {
       },
     },
     {
-      name: "Michael Chen",
-      role: "COO",
-      bio: "Michael oversees our day-to-day operations, ensuring we deliver exceptional service to our clients. His focus on operational excellence has been key to our growth.",
-      image: "/images/team/coo.jpg",
+      name: "Moses Mbaraka",
+      role: "Fullsat Developrt",
+      bio: "Moses oversees our day-to-day operations, ensuring we deliver exceptional service to our clients. His focus on operational excellence has been key to our growth.",
+      image: "/moses.jpeg",
       social: {
         linkedin: "#",
         twitter: "#",

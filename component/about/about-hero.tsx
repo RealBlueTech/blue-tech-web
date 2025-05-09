@@ -22,7 +22,7 @@ export default function AboutHero() {
             We're a team of passionate technologists dedicated to helping businesses innovate, optimize, and grow in the
             digital era.
           </p>
-
+{/* 
           <div className="relative mx-auto mt-12 aspect-[16/9] max-w-4xl overflow-hidden rounded-xl shadow-xl">
             <Image
               src="/placeholder.svg?height=720&width=1280"
@@ -36,7 +36,7 @@ export default function AboutHero() {
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
               <p className="text-lg font-medium">Our headquarters in San Francisco, California</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

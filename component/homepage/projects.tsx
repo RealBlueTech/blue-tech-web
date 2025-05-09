@@ -59,7 +59,7 @@ export default function Projects() {
                   ))}
                 </div>
                 <Link
-                  href={`/projects/${project.id}`}
+                  href={`/project/${project.id}`}
                   className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-700"
                 >
                   View Case Study
@@ -72,7 +72,7 @@ export default function Projects() {
 
         <div className="mt-12 text-center">
           <Link
-            href="/projects"
+            href="/project"
             className="inline-flex items-center justify-center rounded-md border border-slate-200 bg-white px-6 py-3 text-sm font-medium text-slate-900 transition-colors hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2"
           >
             View All Projects

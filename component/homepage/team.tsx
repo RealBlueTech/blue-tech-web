@@ -6,8 +6,8 @@ export default function Team() {
     {
       name: "Baraka Nampellah",
       role: "Software Engineer",
-      bio: "15+ years of experience in technology leadership and business strategy.",
-      image: "/placeholder.svg?height=400&width=400",
+      bio: "5+ years of experience in technology leadership and business strategy.",
+      image: "/nampellah.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -18,7 +18,7 @@ export default function Team() {
       name: "Daniel Ntunduye",
       role: "Software Engineer",
       bio: "Expert in cloud architecture and emerging technologies.",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/danny.jpeg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -29,7 +29,7 @@ export default function Team() {
       name: "Moses Mbaraka",
       role: "Software Engineer",
       bio: "Full-stack developer specializing in scalable web applications.",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/moses.jpeg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -37,7 +37,7 @@ export default function Team() {
       },
     },
     {
-      name: "Suleman Mbaraka",
+      name: "Suleman Mustapha",
       role: "Software Engineer",
       bio: "Certified PMP with expertise in agile methodologies.",
       image: "/placeholder.svg?height=400&width=400",

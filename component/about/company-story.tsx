@@ -3,27 +3,27 @@ import Image from "next/image"
 export default function CompanyStory() {
   const milestones = [
     {
-      year: "2008",
+      year: "2019",
       title: "Founded",
       description: "BlueTech was founded with a vision to help businesses leverage technology for growth.",
     },
     {
-      year: "2012",
+      year: "2020",
       title: "Expansion",
       description: "Expanded our services to include cloud solutions and mobile app development.",
     },
     {
-      year: "2015",
-      title: "Global Reach",
-      description: "Opened offices in Europe and Asia to serve our growing international client base.",
-    },
-    {
-      year: "2018",
-      title: "Innovation Lab",
-      description: "Launched our Innovation Lab to explore emerging technologies like AI and blockchain.",
-    },
-    {
       year: "2021",
+      title: "Global Reach",
+      description: "Collabolate with partners in  Asia to serve our growing international client base.",
+    },
+    {
+      year: "2022",
+      title: "Innovation Lab",
+      description: "Explore emerging technologies like AI and blockchain.",
+    },
+    {
+      year: "2023",
       title: "Industry Recognition",
       description: "Recognized as a leader in technology solutions by industry analysts.",
     },

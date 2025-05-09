@@ -39,7 +39,7 @@ export default function ProjectsHero() {
             </a>
           </div>
 
-          <div className="relative mx-auto mt-12 grid max-w-5xl gap-4 sm:grid-cols-3">
+          {/* <div className="relative mx-auto mt-12 grid max-w-5xl gap-4 sm:grid-cols-3">
             <div className="relative aspect-[4/3] overflow-hidden rounded-xl shadow-md">
               <Image
                 src="/placeholder.svg?height=400&width=600"
@@ -67,7 +67,7 @@ export default function ProjectsHero() {
                 className="object-cover"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

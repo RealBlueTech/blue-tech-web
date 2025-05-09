@@ -1,57 +1,62 @@
 import Image from "next/image"
 import { CheckCircle, ArrowRight } from "lucide-react"
+import { getAllServices } from "../../data/service"
 
 export default function ServiceDetails() {
-  const featuredServices = [
-    {
-      id: "web-development",
-      title: "Web Development",
-      description:
-        "We build responsive, high-performance websites and web applications that deliver exceptional user experiences and drive business results.",
-      image: "/placeholder.svg?height=600&width=800",
-      features: [
-        "Custom website development",
-        "Progressive Web Applications (PWAs)",
-        "E-commerce solutions",
-        "Content Management Systems",
-        "API development and integration",
-        "Performance optimization",
-      ],
-      technologies: ["React", "Next.js", "Node.js", "WordPress", "Shopify", "Laravel"],
-    },
-    {
-      id: "mobile-development",
-      title: "Mobile App Development",
-      description:
-        "We create intuitive, feature-rich mobile applications for iOS and Android that engage users and help businesses reach their mobile audience effectively.",
-      image: "/placeholder.svg?height=600&width=800",
-      features: [
-        "Native iOS and Android development",
-        "Cross-platform development",
-        "UI/UX design for mobile",
-        "App store optimization",
-        "Mobile app testing and QA",
-        "Ongoing maintenance and support",
-      ],
-      technologies: ["React Native", "Flutter", "Swift", "Kotlin", "Firebase", "AWS Amplify"],
-    },
-    {
-      id: "cloud-computing",
-      title: "Cloud Computing",
-      description:
-        "We provide scalable, secure cloud solutions that optimize operations, reduce infrastructure costs, and enable business agility.",
-      image: "/placeholder.svg?height=600&width=800",
-      features: [
-        "Cloud migration and strategy",
-        "Infrastructure as a Service (IaaS)",
-        "Platform as a Service (PaaS)",
-        "Software as a Service (SaaS)",
-        "Cloud security and compliance",
-        "Managed cloud services",
-      ],
-      technologies: ["AWS", "Microsoft Azure", "Google Cloud", "Docker", "Kubernetes", "Terraform"],
-    },
-  ]
+
+  // Fetch all services data
+  const services = getAllServices()
+
+  // const featuredServices = [
+  //   {
+  //     id: "web-development",
+  //     title: "Web Development",
+  //     description:
+  //       "We build responsive, high-performance websites and web applications that deliver exceptional user experiences and drive business results.",
+  //     image: "/placeholder.svg?height=600&width=800",
+  //     features: [
+  //       "Custom website development",
+  //       "Progressive Web Applications (PWAs)",
+  //       "E-commerce solutions",
+  //       "Content Management Systems",
+  //       "API development and integration",
+  //       "Performance optimization",
+  //     ],
+  //     technologies: ["React", "Next.js", "Node.js", "WordPress", "Shopify", "Laravel"],
+  //   },
+  //   {
+  //     id: "mobile-development",
+  //     title: "Mobile App Development",
+  //     description:
+  //       "We create intuitive, feature-rich mobile applications for iOS and Android that engage users and help businesses reach their mobile audience effectively.",
+  //     image: "/placeholder.svg?height=600&width=800",
+  //     features: [
+  //       "Native iOS and Android development",
+  //       "Cross-platform development",
+  //       "UI/UX design for mobile",
+  //       "App store optimization",
+  //       "Mobile app testing and QA",
+  //       "Ongoing maintenance and support",
+  //     ],
+  //     technologies: ["React Native", "Flutter", "Swift", "Kotlin", "Firebase", "AWS Amplify"],
+  //   },
+  //   {
+  //     id: "cloud-computing",
+  //     title: "Cloud Computing",
+  //     description:
+  //       "We provide scalable, secure cloud solutions that optimize operations, reduce infrastructure costs, and enable business agility.",
+  //     image: "/placeholder.svg?height=600&width=800",
+  //     features: [
+  //       "Cloud migration and strategy",
+  //       "Infrastructure as a Service (IaaS)",
+  //       "Platform as a Service (PaaS)",
+  //       "Software as a Service (SaaS)",
+  //       "Cloud security and compliance",
+  //       "Managed cloud services",
+  //     ],
+  //     technologies: ["AWS", "Microsoft Azure", "Google Cloud", "Docker", "Kubernetes", "Terraform"],
+  //   },
+  // ]
 
   return (
     <section className="relative overflow-hidden bg-white py-20">
@@ -73,12 +78,12 @@ export default function ServiceDetails() {
         </div>
 
         <div className="space-y-24">
-          {featuredServices.map((service, index) => (
+          {services.map((service, index) => (
             <div key={index} id={service.id} className="scroll-mt-20">
               <div className={`grid gap-12 items-center lg:grid-cols-2 ${index % 2 === 1 ? "lg:grid-flow-dense" : ""}`}>
                 <div className={index % 2 === 1 ? "lg:col-start-2" : ""}>
                   <h3 className="mb-4 text-3xl font-bold text-slate-900">{service.title}</h3>
-                  <p className="mb-6 text-lg text-slate-600">{service.description}</p>
+                  <p className="mb-6 text-lg text-slate-600">{service.shortDescription}</p>
 
                   <div className="mb-6 space-y-3">
                     <h4 className="text-xl font-semibold text-slate-900">Key Features</h4>
@@ -86,7 +91,7 @@ export default function ServiceDetails() {
                       {service.features.map((feature, i) => (
                         <div key={i} className="flex items-start space-x-2">
                           <CheckCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-emerald-500" />
-                          <span className="text-slate-600">{feature}</span>
+                          <span className="text-slate-600">{feature.title}</span>
                         </div>
                       ))}
                     </div>
@@ -100,14 +105,14 @@ export default function ServiceDetails() {
                           key={i}
                           className="inline-block rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-700"
                         >
-                          {tech}
+                          {tech.name}
                         </span>
                       ))}
                     </div>
                   </div>
 
                   <a
-                    href="#contact"
+                    href={`/service/${service.id}`}
                     className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-700"
                   >
                     Learn more about our {service.title.toLowerCase()} services

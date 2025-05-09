@@ -4,35 +4,25 @@ import { MapPin, Phone, Mail } from "lucide-react"
 export default function OfficeLocations() {
   const offices = [
     {
-      name: "San Francisco",
+      name: "Blue tech HQ",
       type: "Headquarters",
       address: "123 Tech Street, Innovation District",
-      city: "San Francisco, CA 94103",
+      city: "Msasani,Bonde la Mpunga",
       phone: "(123) 456-7890",
-      email: "sf@techsolutions.com",
+      email: "general@bluetech.software",
       image: "/placeholder.svg?height=300&width=500",
       mapUrl: "https://maps.google.com",
     },
     {
-      name: "New York",
+      name: "Arusha Branch",
       type: "East Coast Office",
       address: "456 Digital Avenue, Tech Hub",
-      city: "New York, NY 10001",
+      city: "Arusha Watch Tower",
       phone: "(123) 456-7891",
-      email: "nyc@techsolutions.com",
+      email: "ArushaBranch@bluetech.software",
       image: "/placeholder.svg?height=300&width=500",
       mapUrl: "https://maps.google.com",
-    },
-    {
-      name: "London",
-      type: "European Headquarters",
-      address: "789 Innovation Lane, Tech City",
-      city: "London, EC1V 9NR, UK",
-      phone: "+44 20 1234 5678",
-      email: "london@techsolutions.com",
-      image: "/placeholder.svg?height=300&width=500",
-      mapUrl: "https://maps.google.com",
-    },
+    }
   ]
 
   return (

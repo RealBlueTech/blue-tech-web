@@ -4,11 +4,7 @@ import Projects from "../../../component/homepage/projects";
 import Team from "../../../component/homepage/team";
 import Stats from "../../../component/homepage/stats";
 import Testimonials from "../../../component/homepage/testimonials";
-import VideoSection from "../../../component/homepage/video-section";
 import Services from "../../../component/homepage/services";
-
-
-
 
 export default function Home() {
   return (
@@ -17,11 +13,10 @@ export default function Home() {
       <About />
       <Services />
       <Projects />
-      <Team />
       <Stats />
+      <Team />
       <Testimonials />
-      <VideoSection />
-    </main>
+   </main>
 
   );
 }

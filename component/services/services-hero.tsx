@@ -33,13 +33,13 @@ export default function ServicesHero() {
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
             <a
-              href="#contact"
+              href="/contact"
               className="inline-flex items-center justify-center rounded-md border border-slate-200 bg-white px-6 py-3 text-sm font-medium text-slate-900 transition-colors hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2"
             >
               Contact Us
             </a>
           </div>
-
+{/* 
           <div className="relative mx-auto mt-12 aspect-[16/9] max-w-4xl overflow-hidden rounded-xl shadow-xl">
             <Image
               src="/placeholder.svg?height=720&width=1280"
@@ -50,7 +50,7 @@ export default function ServicesHero() {
               priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

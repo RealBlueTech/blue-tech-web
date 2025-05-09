@@ -3,19 +3,19 @@ import { Users, CheckCircle, Award } from "lucide-react"
 export default function Stats() {
   const stats = [
     {
-      value: "20+",
+      value: "5+",
       label: "Years of Experience",
-      description: "Delivering technology solutions since 2003",
+      description: "Delivering technology solutions since 2019",
       icon: <Award className="h-6 w-6" />,
     },
     {
-      value: "280+",
+      value: "12+",
       label: "Completed Projects",
       description: "Successful implementations across industries",
       icon: <CheckCircle className="h-6 w-6" />,
     },
     {
-      value: "510+",
+      value: "30+",
       label: "Happy Clients",
       description: "Businesses transformed through technology",
       icon: <Users className="h-6 w-6" />,
@@ -61,7 +61,7 @@ export default function Stats() {
           <div className="mt-12 text-center">
             <h3 className="mb-4 text-2xl font-bold">Ready to transform your business?</h3>
             <a
-              href="#contact"
+              href="/contact"
               className="inline-flex items-center justify-center rounded-md bg-white px-6 py-3 text-sm font-medium text-slate-900 transition-colors hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-slate-900"
             >
               Get Started Today
