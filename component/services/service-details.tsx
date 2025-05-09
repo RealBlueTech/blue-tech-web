@@ -1,11 +1,10 @@
-import Image from "next/image"
-import { CheckCircle, ArrowRight } from "lucide-react"
-import { getAllServices } from "../../data/service"
+import Image from "next/image";
+import { CheckCircle, ArrowRight } from "lucide-react";
+import { getAllServices } from "../../data/service";
 
 export default function ServiceDetails() {
-
   // Fetch all services data
-  const services = getAllServices()
+  const services = getAllServices();
 
   // const featuredServices = [
   //   {
@@ -59,51 +58,65 @@ export default function ServiceDetails() {
   // ]
 
   return (
-    <section className="relative overflow-hidden bg-white py-20">
+    <section className='relative overflow-hidden bg-white py-20'>
       {/* Background subtle pattern */}
-      <div className="absolute inset-0 z-0 opacity-[0.03]">
-        <div className="absolute left-0 top-1/4 h-80 w-80 rounded-full bg-gradient-to-r from-slate-200 to-slate-300" />
-        <div className="absolute right-0 bottom-1/4 h-64 w-64 rounded-full bg-gradient-to-l from-slate-200 to-slate-300" />
+      <div className='absolute inset-0 z-0 opacity-[0.03]'>
+        <div className='absolute left-0 top-1/4 h-80 w-80 rounded-full bg-gradient-to-r from-slate-200 to-slate-300' />
+        <div className='absolute right-0 bottom-1/4 h-64 w-64 rounded-full bg-gradient-to-l from-slate-200 to-slate-300' />
       </div>
 
-      <div className="container relative z-10 mx-auto px-4">
-        <div className="mx-auto max-w-3xl text-center">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+      <div className='container relative z-10 mx-auto px-4'>
+        <div className='mx-auto max-w-3xl text-center'>
+          <h2 className='mb-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl'>
             Our Core Service Offerings
           </h2>
-          <p className="mb-16 text-lg text-slate-600">
-            Explore our flagship services that have helped hundreds of businesses transform their digital presence and
-            operations.
+          <p className='mb-16 text-lg text-slate-600'>
+            Explore our flagship services that have helped hundreds of
+            businesses transform their digital presence and operations.
           </p>
         </div>
 
-        <div className="space-y-24">
+        <div className='space-y-24'>
           {services.map((service, index) => (
-            <div key={index} id={service.id} className="scroll-mt-20">
-              <div className={`grid gap-12 items-center lg:grid-cols-2 ${index % 2 === 1 ? "lg:grid-flow-dense" : ""}`}>
+            <div key={index} id={service.id} className='scroll-mt-20'>
+              <div
+                className={`grid gap-12 items-center lg:grid-cols-2 ${
+                  index % 2 === 1 ? "lg:grid-flow-dense" : ""
+                }`}
+              >
                 <div className={index % 2 === 1 ? "lg:col-start-2" : ""}>
-                  <h3 className="mb-4 text-3xl font-bold text-slate-900">{service.title}</h3>
-                  <p className="mb-6 text-lg text-slate-600">{service.shortDescription}</p>
+                  <h3 className='mb-4 text-3xl font-bold text-slate-900'>
+                    {service.title}
+                  </h3>
+                  <p className='mb-6 text-lg text-slate-600'>
+                    {service.shortDescription}
+                  </p>
 
-                  <div className="mb-6 space-y-3">
-                    <h4 className="text-xl font-semibold text-slate-900">Key Features</h4>
-                    <div className="grid gap-2 sm:grid-cols-2">
+                  <div className='mb-6 space-y-3'>
+                    <h4 className='text-xl font-semibold text-slate-900'>
+                      Key Features
+                    </h4>
+                    <div className='grid gap-2 sm:grid-cols-2'>
                       {service.features.map((feature, i) => (
-                        <div key={i} className="flex items-start space-x-2">
-                          <CheckCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-emerald-500" />
-                          <span className="text-slate-600">{feature.title}</span>
+                        <div key={i} className='flex items-start space-x-2'>
+                          <CheckCircle className='mt-0.5 h-5 w-5 flex-shrink-0 text-emerald-500' />
+                          <span className='text-slate-600'>
+                            {feature.title}
+                          </span>
                         </div>
                       ))}
                     </div>
                   </div>
 
-                  <div className="mb-6">
-                    <h4 className="mb-3 text-xl font-semibold text-slate-900">Technologies</h4>
-                    <div className="flex flex-wrap gap-2">
+                  <div className='mb-6'>
+                    <h4 className='mb-3 text-xl font-semibold text-slate-900'>
+                      Technologies
+                    </h4>
+                    <div className='flex flex-wrap gap-2'>
                       {service.technologies.map((tech, i) => (
                         <span
                           key={i}
-                          className="inline-block rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-700"
+                          className='inline-block rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-700'
                         >
                           {tech.name}
                         </span>
@@ -113,21 +126,21 @@ export default function ServiceDetails() {
 
                   <a
                     href={`/service/${service.id}`}
-                    className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-700"
+                    className='inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-700'
                   >
                     Learn more about our {service.title.toLowerCase()} services
-                    <ArrowRight className="ml-1 h-4 w-4" />
+                    <ArrowRight className='ml-1 h-4 w-4' />
                   </a>
                 </div>
 
-                <div className="relative">
-                  <div className="relative overflow-hidden rounded-xl shadow-lg">
+                <div className='relative'>
+                  <div className='relative overflow-hidden rounded-xl shadow-lg'>
                     <Image
                       src={service.image || "/placeholder.svg"}
                       width={800}
                       height={600}
                       alt={service.title}
-                      className="h-auto w-full object-cover"
+                      className='h-auto w-full object-cover'
                     />
                   </div>
                 </div>
@@ -137,5 +150,5 @@ export default function ServiceDetails() {
         </div>
       </div>
     </section>
-  )
+  );
 }

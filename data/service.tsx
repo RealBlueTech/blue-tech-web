@@ -1,46 +1,55 @@
-import type React from "react"
-import { Globe, Smartphone, Cloud, Shield, Database, Code, Briefcase, Palette } from "lucide-react"
+import type React from "react";
+import {
+  Globe,
+  Smartphone,
+  Cloud,
+  Shield,
+  Database,
+  Code,
+  Briefcase,
+  Palette,
+} from "lucide-react";
 
 export interface ServicePricing {
-  tier: string
-  price: string
-  period: string
-  features: string[]
-  isPopular?: boolean
+  tier: string;
+  price: string;
+  period: string;
+  features: string[];
+  isPopular?: boolean;
 }
 
 export interface ServiceFeature {
-  title: string
-  description: string
-  icon?: React.ReactNode
+  title: string;
+  description: string;
+  icon?: React.ReactNode;
 }
 
 export interface ServiceProcess {
-  step: number
-  title: string
-  description: string
+  step: number;
+  title: string;
+  description: string;
 }
 
 export interface ServiceTechnology {
-  name: string
-  logo: string
+  name: string;
+  logo: string;
 }
 
 export interface Service {
-  id: string
-  title: string
-  slug: string
-  icon: React.ReactNode
-  shortDescription: string
-  longDescription: string
-  image: string
-  features: ServiceFeature[]
-  benefits: string[]
-  pricing: ServicePricing[]
-  process: ServiceProcess[]
-  technologies: ServiceTechnology[]
-  faq: { question: string; answer: string }[]
-  caseStudies: string[] // IDs of related case studies
+  id: string;
+  title: string;
+  slug: string;
+  icon: React.ReactNode;
+  shortDescription: string;
+  longDescription: string;
+  image: string;
+  features: ServiceFeature[];
+  benefits: string[];
+  pricing: ServicePricing[];
+  process: ServiceProcess[];
+  technologies: ServiceTechnology[];
+  faq: { question: string; answer: string }[];
+  caseStudies: string[]; // IDs of related case studies
 }
 
 export const services: Service[] = [
@@ -48,46 +57,48 @@ export const services: Service[] = [
     id: "web-development",
     title: "Web Development",
     slug: "web-development",
-    icon: <Globe className="h-6 w-6" />,
+    icon: <Globe className='h-6 w-6' />,
     shortDescription:
       "Building responsive, high-performance websites and web applications tailored to your business needs.",
     longDescription:
       "Our web development services deliver custom, high-performance websites and applications that engage your audience and drive business growth. We combine cutting-edge technologies with user-centered design to create digital experiences that stand out in today's competitive landscape.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/web.jpg",
     features: [
       {
         title: "Custom Website Development",
         description:
           "Bespoke websites designed and developed to meet your specific business requirements and brand identity.",
-        icon: <Code className="h-5 w-5" />,
+        icon: <Code className='h-5 w-5' />,
       },
       {
         title: "E-commerce Solutions",
         description:
           "Powerful online stores with secure payment processing, inventory management, and seamless user experience.",
-        icon: <Database className="h-5 w-5" />,
+        icon: <Database className='h-5 w-5' />,
       },
       {
         title: "Progressive Web Apps",
         description:
           "Fast, reliable, and engaging web applications that work offline and provide a native app-like experience.",
-        icon: <Smartphone className="h-5 w-5" />,
+        icon: <Smartphone className='h-5 w-5' />,
       },
       {
         title: "Content Management Systems",
-        description: "User-friendly CMS implementations that make it easy to update and manage your website content.",
-        icon: <Briefcase className="h-5 w-5" />,
+        description:
+          "User-friendly CMS implementations that make it easy to update and manage your website content.",
+        icon: <Briefcase className='h-5 w-5' />,
       },
       {
         title: "API Development & Integration",
-        description: "Custom API development and third-party integrations to extend your website's functionality.",
-        icon: <Cloud className="h-5 w-5" />,
+        description:
+          "Custom API development and third-party integrations to extend your website's functionality.",
+        icon: <Cloud className='h-5 w-5' />,
       },
       {
         title: "Performance Optimization",
         description:
           "Speed optimization, caching strategies, and code refinement to ensure your website loads quickly.",
-        icon: <Shield className="h-5 w-5" />,
+        icon: <Shield className='h-5 w-5' />,
       },
     ],
     benefits: [
@@ -143,12 +154,14 @@ export const services: Service[] = [
       {
         step: 1,
         title: "Discovery",
-        description: "We begin by understanding your business, goals, and requirements through in-depth consultations.",
+        description:
+          "We begin by understanding your business, goals, and requirements through in-depth consultations.",
       },
       {
         step: 2,
         title: "Planning",
-        description: "We create a detailed project plan, including sitemap, wireframes, and technical specifications.",
+        description:
+          "We create a detailed project plan, including sitemap, wireframes, and technical specifications.",
       },
       {
         step: 3,
@@ -159,7 +172,8 @@ export const services: Service[] = [
       {
         step: 4,
         title: "Development",
-        description: "Our developers build your website using the latest technologies and best practices.",
+        description:
+          "Our developers build your website using the latest technologies and best practices.",
       },
       {
         step: 5,
@@ -170,12 +184,14 @@ export const services: Service[] = [
       {
         step: 6,
         title: "Deployment",
-        description: "We launch your website and ensure everything is working properly in the live environment.",
+        description:
+          "We launch your website and ensure everything is working properly in the live environment.",
       },
       {
         step: 7,
         title: "Support",
-        description: "We provide ongoing support and maintenance to keep your website running smoothly.",
+        description:
+          "We provide ongoing support and maintenance to keep your website running smoothly.",
       },
     ],
     technologies: [
@@ -237,42 +253,48 @@ export const services: Service[] = [
     id: "mobile-app-development",
     title: "Mobile App Development",
     slug: "mobile-app-development",
-    icon: <Smartphone className="h-6 w-6" />,
+    icon: <Smartphone className='h-6 w-6' />,
     shortDescription:
       "Creating intuitive native and cross-platform mobile applications that engage users and drive results.",
     longDescription:
       "Our mobile app development services deliver innovative, user-friendly applications that help businesses connect with their audience on iOS and Android devices. We combine technical expertise with creative design to create mobile experiences that users love and that deliver measurable business results.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/mobile-app.jpg",
     features: [
       {
         title: "Native iOS Development",
-        description: "Custom iOS applications built with Swift for optimal performance and user experience.",
-        icon: <Code className="h-5 w-5" />,
+        description:
+          "Custom iOS applications built with Swift for optimal performance and user experience.",
+        icon: <Code className='h-5 w-5' />,
       },
       {
         title: "Native Android Development",
-        description: "Custom Android applications built with Kotlin for optimal performance and user experience.",
-        icon: <Database className="h-5 w-5" />,
+        description:
+          "Custom Android applications built with Kotlin for optimal performance and user experience.",
+        icon: <Database className='h-5 w-5' />,
       },
       {
         title: "Cross-Platform Development",
-        description: "Efficient app development for both iOS and Android using React Native or Flutter.",
-        icon: <Smartphone className="h-5 w-5" />,
+        description:
+          "Efficient app development for both iOS and Android using React Native or Flutter.",
+        icon: <Smartphone className='h-5 w-5' />,
       },
       {
         title: "UI/UX Design for Mobile",
-        description: "Intuitive, engaging user interfaces designed specifically for mobile devices.",
-        icon: <Palette className="h-5 w-5" />,
+        description:
+          "Intuitive, engaging user interfaces designed specifically for mobile devices.",
+        icon: <Palette className='h-5 w-5' />,
       },
       {
         title: "App Store Optimization",
-        description: "Strategies to improve your app's visibility and downloads in the App Store and Google Play.",
-        icon: <Briefcase className="h-5 w-5" />,
+        description:
+          "Strategies to improve your app's visibility and downloads in the App Store and Google Play.",
+        icon: <Briefcase className='h-5 w-5' />,
       },
       {
         title: "App Maintenance & Support",
-        description: "Ongoing updates, bug fixes, and enhancements to keep your app running smoothly.",
-        icon: <Shield className="h-5 w-5" />,
+        description:
+          "Ongoing updates, bug fixes, and enhancements to keep your app running smoothly.",
+        icon: <Shield className='h-5 w-5' />,
       },
     ],
     benefits: [
@@ -427,7 +449,7 @@ export const services: Service[] = [
     id: "cloud-computing",
     title: "Cloud Computing",
     slug: "cloud-computing",
-    icon: <Cloud className="h-6 w-6" />,
+    icon: <Cloud className='h-6 w-6' />,
     shortDescription:
       "Providing scalable, secure cloud solutions that optimize operations and reduce infrastructure costs.",
     longDescription: "",
@@ -444,7 +466,7 @@ export const services: Service[] = [
     id: "cyber-security",
     title: "Cyber Security",
     slug: "cyber-security",
-    icon: <Shield className="h-6 w-6" />,
+    icon: <Shield className='h-6 w-6' />,
     shortDescription:
       "Implementing robust security measures to protect your valuable data and systems from threats.",
     longDescription: "",
@@ -461,7 +483,7 @@ export const services: Service[] = [
     id: "data-analytics",
     title: "Data Analytics",
     slug: "data-analytics",
-    icon: <Database className="h-6 w-6" />,
+    icon: <Database className='h-6 w-6' />,
     shortDescription:
       "Transforming your raw data into actionable insights that drive better business decisions and outcomes.",
     longDescription: "",
@@ -478,7 +500,7 @@ export const services: Service[] = [
     id: "custom-software",
     title: "Custom Software",
     slug: "custom-software",
-    icon: <Code className="h-6 w-6" />,
+    icon: <Code className='h-6 w-6' />,
     shortDescription:
       "Developing bespoke software solutions that address your unique business challenges and needs.",
     longDescription: "",
@@ -495,7 +517,7 @@ export const services: Service[] = [
     id: "digital-strategy",
     title: "Digital Strategy",
     slug: "digital-strategy",
-    icon: <Briefcase className="h-6 w-6" />,
+    icon: <Briefcase className='h-6 w-6' />,
     shortDescription:
       "Creating comprehensive digital roadmaps that align technology initiatives with your business objectives.",
     longDescription: "",
@@ -512,7 +534,7 @@ export const services: Service[] = [
     id: "ai-machine-learning",
     title: "AI & Machine Learning",
     slug: "ai-machine-learning",
-    icon: <Palette className="h-6 w-6" />,
+    icon: <Palette className='h-6 w-6' />,
     shortDescription:
       "Leveraging artificial intelligence and machine learning to automate processes and uncover new opportunities.",
     longDescription: "",
@@ -529,7 +551,7 @@ export const services: Service[] = [
     id: "it-consulting",
     title: "IT Consulting",
     slug: "it-consulting",
-    icon: <Shield className="h-6 w-6" />,
+    icon: <Shield className='h-6 w-6' />,
     shortDescription:
       "Offering strategic guidance to align your technology investments with your business objectives.",
     longDescription: "",
@@ -546,7 +568,7 @@ export const services: Service[] = [
     id: "ui-ux-design",
     title: "UI/UX Design",
     slug: "ui-ux-design",
-    icon: <Palette className="h-6 w-6" />,
+    icon: <Palette className='h-6 w-6' />,
     shortDescription:
       "Designing intuitive, engaging user interfaces that enhance user satisfaction and conversion rates.",
     longDescription: "",
@@ -562,9 +584,9 @@ export const services: Service[] = [
 ];
 
 export function getAllServices(): Service[] {
-  return services
+  return services;
 }
 
 export function getServiceBySlug(id: string): Service | undefined {
-  return services.find((service) => service.id === id)
+  return services.find((service) => service.id === id);
 }
