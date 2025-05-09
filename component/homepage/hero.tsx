@@ -3,12 +3,13 @@
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 import { motion } from "framer-motion"
+import dynamic from 'next/dynamic'
+import animationData from '../../public/therealstartup.json'
 
-
-import Lottie from 'lottie-react';
-import animationData from '../../public/therealstartup.json'; // or wherever your JSON is
-
-
+const Lottie = dynamic(() => import('lottie-react'), {
+  ssr: false,
+  loading: () => <div className="w-[100px] h-[100px] bg-slate-100 rounded-lg animate-pulse" />
+})
 
 export default function Hero() {
   return (
