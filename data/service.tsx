@@ -454,7 +454,48 @@ export const services: Service[] = [
       "Providing scalable, secure cloud solutions that optimize operations and reduce infrastructure costs.",
     longDescription: "",
     image: "/cloud.jpg",
-    features: [],
+    features: [
+      {
+        title: "Scalable infrastructure",
+        description:
+          "Easily scale resources up or down based on your business needs.",
+      },
+      {
+        title: "High availability and uptime",
+        description:
+          "Ensure your applications and services remain accessible around the clock.",
+      },
+      {
+        title: "Cost-effective resource management",
+        description: "Reduce capital expenses by paying only for what you use.",
+      },
+      {
+        title: "Automated backups and disaster recovery",
+        description:
+          "Protect your data with reliable backup and recovery solutions.",
+      },
+      {
+        title: "Secure data storage and access",
+        description:
+          "Use encryption and access controls to protect sensitive information.",
+      },
+      {
+        title: "Cloud-native application development",
+        description:
+          "Build and deploy applications optimized for the cloud environment.",
+      },
+      {
+        title: "Multi-cloud and hybrid-cloud support",
+        description:
+          "Integrate across public, private, or hybrid cloud environments seamlessly.",
+      },
+      {
+        title: "Monitoring and performance optimization",
+        description:
+          "Track usage, detect issues, and improve performance with real-time analytics.",
+      },
+    ],
+
     benefits: [],
     pricing: [],
     process: [],
