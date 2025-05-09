@@ -453,12 +453,87 @@ export const services: Service[] = [
     shortDescription:
       "Providing scalable, secure cloud solutions that optimize operations and reduce infrastructure costs.",
     longDescription: "",
-    image: "",
-    features: [],
+    image: "/cloud.jpg",
+    features: [
+      {
+        title: "Scalable infrastructure",
+        description:
+          "Easily scale resources up or down based on your business needs.",
+      },
+      {
+        title: "High availability and uptime",
+        description:
+          "Ensure your applications and services remain accessible around the clock.",
+      },
+      {
+        title: "Cost-effective resource management",
+        description: "Reduce capital expenses by paying only for what you use.",
+      },
+      {
+        title: "Automated backups and disaster recovery",
+        description:
+          "Protect your data with reliable backup and recovery solutions.",
+      },
+      {
+        title: "Secure data storage and access",
+        description:
+          "Use encryption and access controls to protect sensitive information.",
+      },
+      {
+        title: "Cloud-native application development",
+        description:
+          "Build and deploy applications optimized for the cloud environment.",
+      },
+      {
+        title: "Multi-cloud and hybrid-cloud support",
+        description:
+          "Integrate across public, private, or hybrid cloud environments seamlessly.",
+      },
+      {
+        title: "Monitoring and performance optimization",
+        description:
+          "Track usage, detect issues, and improve performance with real-time analytics.",
+      },
+    ],
+
     benefits: [],
     pricing: [],
     process: [],
-    technologies: [],
+    technologies: [
+      {
+        name: "Amazon Web Services (AWS)",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Microsoft Azure",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Google Cloud Platform (GCP)",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Docker",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Kubernetes",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Terraform",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Cloudflare",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Firebase",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+    ],
+
     faq: [],
     caseStudies: [],
   },
@@ -470,14 +545,182 @@ export const services: Service[] = [
     shortDescription:
       "Implementing robust security measures to protect your valuable data and systems from threats.",
     longDescription: "",
-    image: "",
-    features: [],
+    image: "/security.jpg",
+    features: [
+      { title: "Real-time threat detection and response", description: "" },
+      {
+        title: "Data encryption and secure communication protocols",
+        description: "",
+      },
+      {
+        title: "Network vulnerability assessments and penetration testing",
+        description: "",
+      },
+      {
+        title: "Multi-factor authentication and access control",
+        description: "",
+      },
+      { title: "Security compliance (GDPR, ISO 27001, etc.)", description: "" },
+      { title: "Regular security audits and monitoring", description: "" },
+      { title: "Incident response planning and recovery", description: "" },
+      { title: "Firewall and intrusion prevention systems", description: "" },
+    ],
     benefits: [],
-    pricing: [],
-    process: [],
-    technologies: [],
-    faq: [],
-    caseStudies: [],
+    pricing: [
+      {
+        tier: "Basic",
+        price: "$10,000",
+        period: "starting at",
+        features: [
+          "Vulnerability scanning",
+          "Basic firewall configuration",
+          "Antivirus setup",
+          "Monthly security reports",
+          "3 months of support",
+        ],
+      },
+      {
+        tier: "Professional",
+        price: "$25,000",
+        period: "starting at",
+        features: [
+          "Everything in Basic",
+          "Penetration testing",
+          "SIEM setup (e.g., Splunk)",
+          "Multi-factor authentication",
+          "Incident response planning",
+          "6 months of support",
+        ],
+        isPopular: true,
+      },
+      {
+        tier: "Enterprise",
+        price: "$45,000+",
+        period: "starting at",
+        features: [
+          "Everything in Professional",
+          "24/7 threat monitoring",
+          "Compliance management (GDPR, ISO 27001)",
+          "Security awareness training",
+          "Dedicated security team",
+          "12 months of support",
+        ],
+      },
+    ],
+
+    process: [
+      {
+        step: 1,
+        title: "Assessment",
+        description:
+          "We begin by assessing your current security posture, identifying vulnerabilities and compliance gaps.",
+      },
+      {
+        step: 2,
+        title: "Planning",
+        description:
+          "We develop a tailored security strategy based on your business needs, risk profile, and industry standards.",
+      },
+      {
+        step: 3,
+        title: "Implementation",
+        description:
+          "We deploy security measures such as firewalls, encryption, intrusion detection, and access controls.",
+      },
+      {
+        step: 4,
+        title: "Testing",
+        description:
+          "We conduct penetration testing, vulnerability scans, and threat simulations to validate your defenses.",
+      },
+      {
+        step: 5,
+        title: "Monitoring",
+        description:
+          "We set up continuous monitoring systems to detect and respond to real-time threats and anomalies.",
+      },
+      {
+        step: 6,
+        title: "Training",
+        description:
+          "We provide employee training and awareness programs to reduce human error and phishing risks.",
+      },
+      {
+        step: 7,
+        title: "Maintenance",
+        description:
+          "We offer ongoing updates, audits, and compliance checks to ensure your security remains up to date.",
+      },
+    ],
+
+    technologies: [
+      {
+        name: "Wireshark",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Nessus",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Metasploit",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Snort",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "OSSEC",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Splunk",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Fail2Ban",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "OpenVAS",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+    ],
+
+    faq: [
+      {
+        question: "What is a cybersecurity assessment?",
+        answer:
+          "A cybersecurity assessment evaluates your organization’s current security posture, identifies vulnerabilities, and provides recommendations for improvement. It’s a crucial first step in protecting your data and systems.",
+      },
+      {
+        question: "How often should we conduct penetration testing?",
+        answer:
+          "We recommend conducting penetration testing at least once a year or after any significant system change. Regular testing ensures that vulnerabilities are discovered and addressed before they can be exploited.",
+      },
+      {
+        question: "Can you help us become compliant with GDPR or ISO 27001?",
+        answer:
+          "Yes, we offer comprehensive compliance services to help your organization meet regulations like GDPR, ISO 27001, HIPAA, and others. We guide you through documentation, implementation, and audits.",
+      },
+      {
+        question: "What is the role of a firewall in cybersecurity?",
+        answer:
+          "A firewall acts as a barrier between your internal network and external threats, filtering traffic and blocking malicious activity. It’s a foundational layer of defense in any cybersecurity strategy.",
+      },
+      {
+        question: "Do you provide 24/7 threat monitoring?",
+        answer:
+          "Yes, we offer continuous threat monitoring services to detect and respond to suspicious activities in real time, ensuring your systems are always protected, even outside business hours.",
+      },
+    ],
+
+    caseStudies: [
+      "financial-institution-security",
+      "ecommerce-data-protection",
+      "enterprise-threat-monitoring",
+    ],
   },
   {
     id: "data-analytics",
