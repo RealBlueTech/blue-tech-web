@@ -149,10 +149,11 @@ export default function TeamSection() {
             ))}
           </div>
 
+          {/*
           <h3 className='mb-8 mt-16 text-2xl font-bold text-slate-900'>
             Department Heads
           </h3>
-          <div className='grid gap-6 sm:grid-cols-2 md:grid-cols-4'>
+          <div className='grid gap-8 md:grid-cols-4'>
             {departmentHeads.map((member, index) => (
               <div
                 key={index}
@@ -174,6 +175,7 @@ export default function TeamSection() {
               </div>
             ))}
           </div>
+          */}
 
           <div className='mt-12 rounded-xl border border-slate-100 bg-white p-8 shadow-sm'>
             <div className='flex flex-col items-center justify-between gap-6 md:flex-row'>
