@@ -1505,13 +1505,203 @@ export const services: Service[] = [
       "Leveraging artificial intelligence and machine learning to automate processes and uncover new opportunities.",
     longDescription: "",
     image: "",
-    features: [],
-    benefits: [],
-    pricing: [],
-    process: [],
-    technologies: [],
-    faq: [],
-    caseStudies: [],
+    features: [
+      {
+        title: "Predictive analytics",
+        description:
+          "Using machine learning models to predict future trends and behaviors.",
+      },
+      {
+        title: "Natural Language Processing (NLP)",
+        description:
+          "Leveraging AI to process and analyze human language for smarter insights.",
+      },
+      {
+        title: "Automated decision-making",
+        description:
+          "Implementing AI systems that automate decisions and reduce manual intervention.",
+      },
+      {
+        title: "Image and speech recognition",
+        description:
+          "Using machine learning to recognize patterns in images and speech for diverse applications.",
+      },
+      {
+        title: "Personalization algorithms",
+        description:
+          "Creating tailored experiences based on user behavior and preferences.",
+      },
+      {
+        title: "Anomaly detection",
+        description:
+          "Detecting unusual patterns or outliers in data for fraud detection, security, and quality control.",
+      },
+      {
+        title: "AI-driven chatbots and virtual assistants",
+        description:
+          "Automating customer support and engagement using AI-based conversational agents.",
+      },
+      {
+        title: "Optimization algorithms",
+        description:
+          "Applying machine learning techniques to optimize resource allocation, scheduling, and performance.",
+      },
+    ],
+
+    benefits: [
+      "Improved decision-making through data-driven insights",
+      "Enhanced automation of repetitive tasks, boosting productivity",
+      "Better customer personalization for improved engagement",
+      "Faster identification of trends, patterns, and anomalies",
+      "Optimized operations and resource allocation",
+      "Increased competitive advantage through cutting-edge AI solutions",
+      "Cost savings by automating manual processes",
+    ],
+    pricing: [
+      {
+        tier: "Basic",
+        price: "$10,000",
+        period: "starting at",
+        features: [
+          "Basic machine learning model development",
+          "Limited data processing and analysis",
+          "1 month of support and consultation",
+        ],
+      },
+      {
+        tier: "Professional",
+        price: "$25,000",
+        period: "starting at",
+        features: [
+          "Advanced machine learning algorithms",
+          "Predictive analytics and anomaly detection",
+          "Custom AI solutions tailored to business needs",
+          "3 months of support and consultation",
+        ],
+        isPopular: true,
+      },
+      {
+        tier: "Enterprise",
+        price: "$50,000+",
+        period: "starting at",
+        features: [
+          "Full-scale AI system integration",
+          "NLP, image recognition, and advanced analytics",
+          "Ongoing optimization and model retraining",
+          "12 months of support and consultation",
+        ],
+      },
+    ],
+
+    process: [
+      {
+        step: 1,
+        title: "Consultation & Discovery",
+        description:
+          "We begin by understanding your business challenges and opportunities, determining where AI and ML can add value.",
+      },
+      {
+        step: 2,
+        title: "Data Collection & Preparation",
+        description:
+          "We gather and preprocess your data to ensure it's ready for training machine learning models.",
+      },
+      {
+        step: 3,
+        title: "Model Development & Training",
+        description:
+          "We build and train machine learning models using your data, applying the best algorithms for your needs.",
+      },
+      {
+        step: 4,
+        title: "Testing & Validation",
+        description:
+          "We rigorously test the model to ensure accuracy and reliability across different scenarios and datasets.",
+      },
+      {
+        step: 5,
+        title: "Deployment & Integration",
+        description:
+          "We deploy the AI model into your environment, ensuring smooth integration with your systems and processes.",
+      },
+      {
+        step: 6,
+        title: "Monitoring & Optimization",
+        description:
+          "We continuously monitor the performance of the AI system and optimize it as new data and insights become available.",
+      },
+    ],
+
+    technologies: [
+      {
+        name: "TensorFlow",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "PyTorch",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "scikit-learn",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Keras",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "OpenAI GPT",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "IBM Watson",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "AWS SageMaker",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Google Cloud AI",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+    ],
+
+    faq: [
+      {
+        question: "What is the difference between AI and machine learning?",
+        answer:
+          "AI refers to the broader concept of machines mimicking human intelligence, while machine learning is a subset of AI focused on enabling systems to learn from data and improve over time without being explicitly programmed.",
+      },
+      {
+        question: "How much data is needed to train a machine learning model?",
+        answer:
+          "The amount of data needed depends on the complexity of the problem and the type of model. Generally, more data leads to better results, but we can work with limited datasets and still deliver effective solutions.",
+      },
+      {
+        question: "What industries can benefit from AI and machine learning?",
+        answer:
+          "AI and machine learning can benefit various industries, including healthcare, finance, retail, logistics, and manufacturing, by improving efficiency, customer experience, and decision-making.",
+      },
+      {
+        question: "How long does it take to develop an AI solution?",
+        answer:
+          "The timeline depends on the complexity of the problem, data availability, and model requirements. Typically, a basic solution can take a few weeks to a few months, while more advanced systems may require longer development time.",
+      },
+      {
+        question: "Can AI be integrated with my existing systems?",
+        answer:
+          "Yes, AI can be integrated into your current systems to enhance functionality, automate processes, and provide valuable insights. We ensure smooth integration and minimal disruption during deployment.",
+      },
+    ],
+
+    caseStudies: [
+      "predictive-maintenance",
+      "fraud-detection-system",
+      "customer-service-chatbot",
+      "personalized-marketing",
+      "image-recognition-application",
+    ],
   },
   {
     id: "it-consulting",
