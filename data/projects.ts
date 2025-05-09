@@ -19,7 +19,7 @@ export const projects: Project[] = [
     description: "A comprehensive system for managing pharmacy operations, including inventory tracking, prescription management, and patient records.",
     category: "Web Application",
     technologies: ["React", "Node.js", "PostgreSQL"],
-    image: "https://img.freepik.com/free-photo/african-american-woman-pharmacist-standing-with-serious-expression-pharmacy_839833-20088.jpg?t=st=1746628333~exp=1746631933~hmac=9eb46f7b890098aa3d4569ce560f94e35a42e205f2dc8b7054c4aff5bbcb5624&w=2000",
+    image: "/famasi.jpg",
     longDescription: "A state-of-the-art pharmacy management system designed to streamline operations and enhance patient care. This comprehensive solution integrates inventory management, prescription processing, and patient records into a single, efficient platform.",
     features: [
       "Real-time inventory tracking and automated reordering",
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     description: "Complete solution for automotive repair shops, handling service scheduling, customer management, and vehicle maintenance tracking.",
     category: "Mobile App",
     technologies: ["React Native", "Firebase", "AWS"],
-    image: "https://img.freepik.com/free-photo/repairman-showing-customer-car-changes_482257-76100.jpg?t=st=1746628383~exp=1746631983~hmac=a3938c1fb065b7776fe643de3e75d5b59a048bfdddb6a9129e608c8a314e8dd9&w=2000",
+    image: "/auto.jpg",
     longDescription: "A comprehensive mobile solution for automotive repair shops that revolutionizes how they manage their operations, customer relationships, and vehicle maintenance tracking.",
     features: [
       "Automated service scheduling system",
