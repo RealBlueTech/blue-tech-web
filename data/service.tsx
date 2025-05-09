@@ -1309,13 +1309,192 @@ export const services: Service[] = [
       "Creating comprehensive digital roadmaps that align technology initiatives with your business objectives.",
     longDescription: "",
     image: "",
-    features: [],
-    benefits: [],
-    pricing: [],
-    process: [],
-    technologies: [],
-    faq: [],
-    caseStudies: [],
+    features: [
+      {
+        title: "Comprehensive digital roadmap",
+        description:
+          "Strategic plans tailored to your business objectives and market needs.",
+      },
+      {
+        title: "Market research & analysis",
+        description:
+          "In-depth insights into market trends and customer behavior to shape your strategy.",
+      },
+      {
+        title: "Technology alignment",
+        description:
+          "Ensuring your technology initiatives are in sync with business goals.",
+      },
+      {
+        title: "Cross-channel strategy",
+        description:
+          "Creating cohesive strategies across multiple digital channels (web, mobile, social media, etc.).",
+      },
+      {
+        title: "Data-driven decision making",
+        description:
+          "Leveraging data analytics to make informed and effective decisions.",
+      },
+      {
+        title: "Continuous monitoring and optimization",
+        description:
+          "Ongoing evaluation and refinement of strategies to ensure business growth and success.",
+      },
+    ],
+
+    benefits: [
+      "Improved alignment between technology and business goals",
+      "Enhanced customer engagement through targeted digital efforts",
+      "Streamlined operations with a focused digital strategy",
+      "Increased market share through data-driven insights",
+      "Optimized digital marketing efforts",
+      "Better ROI on technology investments",
+    ],
+    pricing: [
+      {
+        tier: "Basic",
+        price: "$5,000",
+        period: "starting at",
+        features: [
+          "Basic market research and strategy",
+          "1 digital channel focus",
+          "1-month consultation",
+        ],
+      },
+      {
+        tier: "Professional",
+        price: "$15,000",
+        period: "starting at",
+        features: [
+          "Comprehensive digital roadmap",
+          "Multi-channel strategy",
+          "Advanced market analysis",
+          "3 months of consultation and strategy refinement",
+        ],
+        isPopular: true,
+      },
+      {
+        tier: "Enterprise",
+        price: "$30,000+",
+        period: "starting at",
+        features: [
+          "Full-scale digital transformation plan",
+          "Custom digital solutions for your business",
+          "Ongoing strategy optimization",
+          "12 months of strategy execution and monitoring",
+        ],
+      },
+    ],
+
+    process: [
+      {
+        step: 1,
+        title: "Consultation & Discovery",
+        description:
+          "We start by understanding your business needs, challenges, and goals to tailor the strategy to your objectives.",
+      },
+      {
+        step: 2,
+        title: "Market Research & Analysis",
+        description:
+          "We conduct in-depth market research and competitor analysis to identify key opportunities and threats.",
+      },
+      {
+        step: 3,
+        title: "Strategy Development",
+        description:
+          "We create a comprehensive digital strategy that outlines key initiatives, channels, and resources required to succeed.",
+      },
+      {
+        step: 4,
+        title: "Implementation Planning",
+        description:
+          "We break down the strategy into actionable steps, creating a detailed timeline for execution.",
+      },
+      {
+        step: 5,
+        title: "Execution & Optimization",
+        description:
+          "We help execute the strategy, continuously monitoring and optimizing it to ensure the desired outcomes.",
+      },
+      {
+        step: 6,
+        title: "Review & Reporting",
+        description:
+          "We provide regular reports and review sessions to ensure the strategy is on track and meeting KPIs.",
+      },
+    ],
+    technologies: [
+      {
+        name: "Google Analytics",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "HubSpot",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Salesforce",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "WordPress",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Adobe Marketing Cloud",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Marketo",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Facebook Ads",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Google Ads",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+    ],
+
+    faq: [
+      {
+        question: "How do I know if my business needs a digital strategy?",
+        answer:
+          "If you're looking to improve your online presence, reach new customers, or optimize existing digital marketing efforts, a digital strategy can help. We start by assessing your current digital footprint and aligning it with your goals.",
+      },
+      {
+        question: "How long does it take to develop a digital strategy?",
+        answer:
+          "Developing a comprehensive digital strategy typically takes 4-6 weeks, depending on the scope of the project and the complexity of your business needs.",
+      },
+      {
+        question:
+          "How do you ensure the strategy aligns with my business goals?",
+        answer:
+          "We begin by conducting thorough consultations with key stakeholders to understand your business objectives. Then, we tailor the digital strategy to meet those specific goals while keeping your target audience in mind.",
+      },
+      {
+        question: "Can you help us with the implementation of the strategy?",
+        answer:
+          "Yes, we not only create the strategy but also help with its execution. We provide implementation support, including ongoing optimization to ensure success.",
+      },
+      {
+        question: "What industries do you specialize in?",
+        answer:
+          "We specialize in a wide range of industries, including e-commerce, healthcare, finance, education, and more. Our approach is adaptable to meet the unique challenges of each sector.",
+      },
+    ],
+
+    caseStudies: [
+      "ecommerce-transformation",
+      "healthcare-digital-optimization",
+      "financial-service-strategy",
+      "education-tech-integration",
+      "retail-omnichannel-strategy",
+    ],
   },
   {
     id: "ai-machine-learning",
