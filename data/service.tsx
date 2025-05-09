@@ -1504,7 +1504,7 @@ export const services: Service[] = [
     shortDescription:
       "Leveraging artificial intelligence and machine learning to automate processes and uncover new opportunities.",
     longDescription: "",
-    image: "",
+    image: "/bot.jpg",
     features: [
       {
         title: "Predictive analytics",
@@ -1701,6 +1701,7 @@ export const services: Service[] = [
       "customer-service-chatbot",
       "personalized-marketing",
       "image-recognition-application",
+      ``,
     ],
   },
   {
@@ -1711,7 +1712,7 @@ export const services: Service[] = [
     shortDescription:
       "Offering strategic guidance to align your technology investments with your business objectives.",
     longDescription: "",
-    image: "",
+    image: "/IT.jpg",
     features: [
       {
         title: "Technology assessment",
@@ -1930,7 +1931,7 @@ export const services: Service[] = [
     shortDescription:
       "Designing intuitive, engaging user interfaces that enhance user satisfaction and conversion rates.",
     longDescription: "",
-    image: "",
+    image: "/figma.jpg",
     features: [
       {
         title: "User Research",
