@@ -128,7 +128,7 @@ export default function CompanyCulture() {
               </div>
               <div className='col-span-2 overflow-hidden rounded-lg'>
                 <Image
-                  src='https://images.unsplash.com/photo-1653565685001-92267a18233a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGJsYWNrJTIwcGVvcGxlJTIwYXQlMjB0aGUlMjBvZmZpY2V8ZW58MHx8MHx8fDA%3D'
+                  src='https://images.unsplash.com/photo-1573497701240-345a300b8d36?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxibGFjayUyMHBlb3BsZSUyMGF0JTIwdGhlJTIwb2ZmaWNlfGVufDB8fDB8fHww'
                   width={600}
                   height={300}
                   alt='Company culture'
