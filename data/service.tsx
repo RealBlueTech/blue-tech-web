@@ -862,7 +862,49 @@ export const services: Service[] = [
       "Transforming your raw data into actionable insights that drive better business decisions and outcomes.",
     longDescription: "",
     image: "",
-    features: [],
+    features: [
+      {
+        title: "Data Collection and Integration",
+        description:
+          "Seamlessly gather data from multiple sources and integrate it for analysis.",
+      },
+      {
+        title: "Data Visualization",
+        description:
+          "Create interactive dashboards and visualizations to make data insights accessible.",
+      },
+      {
+        title: "Predictive Analytics",
+        description:
+          "Leverage machine learning models to forecast future trends and outcomes.",
+      },
+      {
+        title: "Real-time Analytics",
+        description:
+          "Monitor and analyze data in real time to drive quick decision-making.",
+      },
+      {
+        title: "Advanced Reporting",
+        description:
+          "Generate detailed reports to support strategic business decisions.",
+      },
+      {
+        title: "Data Cleansing and Transformation",
+        description:
+          "Ensure the accuracy and consistency of data through cleaning and transformation processes.",
+      },
+      {
+        title: "Custom Analytics Solutions",
+        description:
+          "Tailor analytics tools to meet the unique needs of your business.",
+      },
+      {
+        title: "Business Intelligence",
+        description:
+          "Utilize data to uncover insights and drive business strategies.",
+      },
+    ],
+
     benefits: [],
     pricing: [],
     process: [],
