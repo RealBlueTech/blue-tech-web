@@ -470,8 +470,26 @@ export const services: Service[] = [
     shortDescription:
       "Implementing robust security measures to protect your valuable data and systems from threats.",
     longDescription: "",
-    image: "",
-    features: [],
+    image: "/security.jpg",
+    features: [
+      { title: "Real-time threat detection and response", description: "" },
+      {
+        title: "Data encryption and secure communication protocols",
+        description: "",
+      },
+      {
+        title: "Network vulnerability assessments and penetration testing",
+        description: "",
+      },
+      {
+        title: "Multi-factor authentication and access control",
+        description: "",
+      },
+      { title: "Security compliance (GDPR, ISO 27001, etc.)", description: "" },
+      { title: "Regular security audits and monitoring", description: "" },
+      { title: "Incident response planning and recovery", description: "" },
+      { title: "Firewall and intrusion prevention systems", description: "" },
+    ],
     benefits: [],
     pricing: [],
     process: [],
