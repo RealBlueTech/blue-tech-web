@@ -499,7 +499,41 @@ export const services: Service[] = [
     benefits: [],
     pricing: [],
     process: [],
-    technologies: [],
+    technologies: [
+      {
+        name: "Amazon Web Services (AWS)",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Microsoft Azure",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Google Cloud Platform (GCP)",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Docker",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Kubernetes",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Terraform",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Cloudflare",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Firebase",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+    ],
+
     faq: [],
     caseStudies: [],
   },
@@ -532,9 +566,84 @@ export const services: Service[] = [
       { title: "Firewall and intrusion prevention systems", description: "" },
     ],
     benefits: [],
-    pricing: [],
+    pricing: [
+      {
+        tier: "Basic",
+        price: "$10,000",
+        period: "starting at",
+        features: [
+          "Vulnerability scanning",
+          "Basic firewall configuration",
+          "Antivirus setup",
+          "Monthly security reports",
+          "3 months of support",
+        ],
+      },
+      {
+        tier: "Professional",
+        price: "$25,000",
+        period: "starting at",
+        features: [
+          "Everything in Basic",
+          "Penetration testing",
+          "SIEM setup (e.g., Splunk)",
+          "Multi-factor authentication",
+          "Incident response planning",
+          "6 months of support",
+        ],
+        isPopular: true,
+      },
+      {
+        tier: "Enterprise",
+        price: "$45,000+",
+        period: "starting at",
+        features: [
+          "Everything in Professional",
+          "24/7 threat monitoring",
+          "Compliance management (GDPR, ISO 27001)",
+          "Security awareness training",
+          "Dedicated security team",
+          "12 months of support",
+        ],
+      },
+    ],
+
     process: [],
-    technologies: [],
+    technologies: [
+      {
+        name: "Wireshark",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Nessus",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Metasploit",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Snort",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "OSSEC",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Splunk",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Fail2Ban",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "OpenVAS",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+    ],
+
     faq: [],
     caseStudies: [],
   },
