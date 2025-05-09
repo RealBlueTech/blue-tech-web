@@ -29,7 +29,7 @@ export default function FeaturedProject() {
             <div className="relative">
               <div className="relative overflow-hidden rounded-xl shadow-lg">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/ecommerc.jpg"
                   width={800}
                   height={600}
                   alt="E-Commerce Platform"
