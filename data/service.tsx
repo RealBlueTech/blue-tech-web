@@ -1931,13 +1931,181 @@ export const services: Service[] = [
       "Designing intuitive, engaging user interfaces that enhance user satisfaction and conversion rates.",
     longDescription: "",
     image: "",
-    features: [],
-    benefits: [],
-    pricing: [],
-    process: [],
-    technologies: [],
-    faq: [],
-    caseStudies: [],
+    features: [
+      {
+        title: "User Research",
+        description:
+          "Understanding user needs through surveys, interviews, and usability testing.",
+      },
+      {
+        title: "Wireframing & Prototyping",
+        description:
+          "Creating wireframes and interactive prototypes to visualize the design.",
+      },
+      {
+        title: "Visual Design",
+        description:
+          "Designing aesthetically pleasing UI elements with attention to detail.",
+      },
+      {
+        title: "Responsive Design",
+        description:
+          "Ensuring the design works seamlessly across all devices and screen sizes.",
+      },
+      {
+        title: "Usability Testing",
+        description:
+          "Testing designs with real users to identify usability issues and improve the experience.",
+      },
+      {
+        title: "Information Architecture",
+        description:
+          "Organizing and structuring content for easy navigation and accessibility.",
+      },
+      {
+        title: "Branding & Identity",
+        description:
+          "Creating a consistent visual identity that aligns with your brand values.",
+      },
+    ],
+
+    benefits: [
+      "Enhanced user satisfaction and engagement",
+      "Increased conversion rates through intuitive design",
+      "Improved brand perception and consistency",
+      "Better usability and accessibility across devices",
+      "Faster development cycles with well-defined design specs",
+      "Streamlined user interactions leading to higher retention rates",
+    ],
+
+    pricing: [
+      {
+        tier: "Basic",
+        price: "$5,000",
+        period: "starting at",
+        features: [
+          "Simple UI design for a single platform",
+          "Basic wireframes and prototypes",
+          "Limited user testing",
+          "1-month support",
+        ],
+      },
+      {
+        tier: "Professional",
+        price: "$12,000",
+        period: "starting at",
+        features: [
+          "UI design for multiple platforms",
+          "Custom user flows and wireframes",
+          "Advanced prototyping",
+          "User research and testing",
+          "3-month support",
+        ],
+        isPopular: true,
+      },
+      {
+        tier: "Enterprise",
+        price: "$25,000+",
+        period: "starting at",
+        features: [
+          "Full UI/UX design for complex apps or websites",
+          "Comprehensive user research and persona development",
+          "High-fidelity mockups and prototypes",
+          "Usability testing with real users",
+          "Ongoing support and iterations",
+        ],
+      },
+    ],
+
+    process: [
+      {
+        step: 1,
+        title: "Discovery",
+        description:
+          "We begin by understanding your business objectives, target audience, and current design challenges through in-depth consultations.",
+      },
+      {
+        step: 2,
+        title: "Research & Analysis",
+        description:
+          "We conduct user research, competitor analysis, and review of existing designs to understand user needs and expectations.",
+      },
+      {
+        step: 3,
+        title: "Wireframing & Prototyping",
+        description:
+          "We create wireframes and interactive prototypes to visualize the user flow and overall design before moving into the visual design phase.",
+      },
+      {
+        step: 4,
+        title: "Visual Design",
+        description:
+          "We develop high-fidelity designs, focusing on aesthetics, branding, and creating a cohesive look that enhances the user experience.",
+      },
+      {
+        step: 5,
+        title: "User Testing",
+        description:
+          "We conduct usability tests with real users to gather feedback and make necessary adjustments to improve the design.",
+      },
+      {
+        step: 6,
+        title: "Final Delivery",
+        description:
+          "Once the design is finalized, we deliver all the necessary assets and documentation for development, ensuring a smooth transition.",
+      },
+      {
+        step: 7,
+        title: "Ongoing Support",
+        description:
+          "We offer continuous support to help implement design changes or updates based on user feedback and business growth.",
+      },
+    ],
+
+    technologies: [
+      { name: "Sketch", logo: "/placeholder.svg?height=60&width=60" },
+      { name: "Figma", logo: "/placeholder.svg?height=60&width=60" },
+      { name: "Adobe XD", logo: "/placeholder.svg?height=60&width=60" },
+      { name: "InVision", logo: "/placeholder.svg?height=60&width=60" },
+      { name: "Axure", logo: "/placeholder.svg?height=60&width=60" },
+      { name: "Framer", logo: "/placeholder.svg?height=60&width=60" },
+    ],
+
+    faq: [
+      {
+        question: "What is the difference between UI and UX design?",
+        answer:
+          "UI (User Interface) design focuses on the look and feel of the product, while UX (User Experience) design focuses on the overall experience, ensuring the product is intuitive and easy to use.",
+      },
+      {
+        question: "How long does it take to design a user interface?",
+        answer:
+          "The time required for UI design depends on the complexity of the project. On average, it may take 2-6 weeks for wireframes and visual design, followed by additional time for prototyping and testing.",
+      },
+      {
+        question: "What is the role of user research in UI/UX design?",
+        answer:
+          "User research helps gather insights into the users' needs, preferences, and pain points. This data informs the design process, ensuring that the final product resonates with the target audience and provides a seamless experience.",
+      },
+      {
+        question: "Can you redesign an existing interface?",
+        answer:
+          "Yes, we can redesign existing user interfaces to improve usability, functionality, and aesthetics. We assess the current design, identify user pain points, and create a more efficient and engaging solution.",
+      },
+      {
+        question: "Do you design mobile apps and websites?",
+        answer:
+          "Yes, we specialize in designing both mobile apps and websites, ensuring a consistent and responsive user experience across all devices and platforms.",
+      },
+    ],
+
+    caseStudies: [
+      "ecommerce-ui-ux-design",
+      "healthcare-app-redesign",
+      "mobile-banking-ux",
+      "education-portal-redesign",
+      "social-media-app-ui",
+    ],
   },
 ];
 
