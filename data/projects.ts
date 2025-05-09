@@ -114,5 +114,43 @@ export const projects: Project[] = [
       "25% growth in customer retention",
       "Improved profit margins"
     ]
+  },
+  {
+    id: "fleetrun",
+    title: "FleetRun",
+    description: "A comprehensive fleet management system designed to help companies manage their trucking operations efficiently, including driver management, truck tracking, and incident management.",
+    category: "Enterprise Platform",
+    technologies: ["React", "Node.js", "PostgreSQL", "AWS"],
+    image: "https://img.freepik.com/free-photo/truck-driving-highway_23-2148515087.jpg?t=st=1746628533~exp=1746632133~hmac=9eb46f7b890098aa3d4569ce560f94e35a42e205f2dc8b7054c4aff5bbcb5624&w=2000",
+    longDescription: "FleetRun is a state-of-the-art fleet management platform that revolutionizes how companies manage their trucking operations. It provides comprehensive tools for driver management, truck tracking, incident management, and analytics, all designed to optimize fleet operations and improve efficiency.",
+    features: [
+      "Driver management with performance tracking and incident monitoring",
+      "Truck fleet management with maintenance scheduling and utilization tracking",
+      "Comprehensive incident management system with severity categorization",
+      "Real-time analytics and reporting dashboard",
+      "Facility management with resource tracking",
+      "Role-based access control and secure data handling"
+    ],
+    challenges: [
+      "Complex integration of multiple data sources",
+      "Real-time data synchronization requirements",
+      "High security and compliance requirements",
+      "Scalability for large fleet operations",
+      "Complex incident tracking and resolution workflows"
+    ],
+    solutions: [
+      "Implemented microservices architecture for scalability",
+      "Developed real-time data synchronization system",
+      "Built robust security measures with role-based access",
+      "Created intuitive UI/UX for easy adoption",
+      "Implemented comprehensive analytics engine"
+    ],
+    results: [
+      "40% improvement in fleet utilization",
+      "35% reduction in incident resolution time",
+      "50% better resource allocation efficiency",
+      "Improved driver performance tracking",
+      "Enhanced operational visibility and control"
+    ]
   }
 ]; 
