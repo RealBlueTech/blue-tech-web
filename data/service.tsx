@@ -1096,13 +1096,209 @@ export const services: Service[] = [
       "Developing bespoke software solutions that address your unique business challenges and needs.",
     longDescription: "",
     image: "",
-    features: [],
-    benefits: [],
-    pricing: [],
-    process: [],
-    technologies: [],
-    faq: [],
-    caseStudies: [],
+    features: [
+      {
+        title: "Tailored solutions",
+        description:
+          "Custom-built to meet your business's specific requirements.",
+      },
+      {
+        title: "Scalability",
+        description: "Designed to grow with your business as demands increase.",
+      },
+      {
+        title: "Integration",
+        description:
+          "Seamless integration with your existing tools and systems.",
+      },
+      {
+        title: "Security",
+        description:
+          "Robust security features to safeguard your business data.",
+      },
+      {
+        title: "User-friendly interfaces",
+        description:
+          "Intuitive and easy-to-use designs for both employees and customers.",
+      },
+      {
+        title: "Maintenance and support",
+        description:
+          "Ongoing support to ensure your software runs smoothly post-deployment.",
+      },
+    ],
+
+    benefits: [
+      "Improved efficiency and productivity",
+      "Tailored to your business processes",
+      "Competitive advantage through unique solutions",
+      "Increased flexibility and scalability",
+      "Enhanced security and data protection",
+      "Seamless integration with existing systems",
+    ],
+
+    pricing: [
+      {
+        tier: "Basic",
+        price: "$10,000",
+        period: "starting at",
+        features: [
+          "Single platform deployment",
+          "Basic functionality",
+          "Standard UI design",
+          "1 month of support",
+        ],
+      },
+      {
+        tier: "Professional",
+        price: "$30,000",
+        period: "starting at",
+        features: [
+          "Cross-platform deployment",
+          "Advanced UI/UX design",
+          "Custom API integrations",
+          "Advanced analytics features",
+          "6 months of support",
+        ],
+        isPopular: true,
+      },
+      {
+        tier: "Enterprise",
+        price: "$50,000+",
+        period: "starting at",
+        features: [
+          "Everything in Professional",
+          "Dedicated infrastructure",
+          "High availability and failover systems",
+          "Advanced security and compliance",
+          "12 months of support",
+        ],
+      },
+    ],
+
+    process: [
+      {
+        step: 1,
+        title: "Consultation & Discovery",
+        description:
+          "We begin by understanding your business goals, challenges, and technical requirements through consultations.",
+      },
+      {
+        step: 2,
+        title: "Planning & Architecture",
+        description:
+          "We develop a detailed plan and software architecture that aligns with your business needs.",
+      },
+      {
+        step: 3,
+        title: "Design & Prototyping",
+        description:
+          "Our designers create wireframes and prototypes for your feedback and approval before development starts.",
+      },
+      {
+        step: 4,
+        title: "Development",
+        description:
+          "We begin coding your custom solution, following best practices for software development.",
+      },
+      {
+        step: 5,
+        title: "Testing",
+        description:
+          "We rigorously test the software to ensure it functions as expected and meets all quality standards.",
+      },
+      {
+        step: 6,
+        title: "Deployment",
+        description:
+          "We deploy the software to your live environment and ensure smooth integration with existing systems.",
+      },
+      {
+        step: 7,
+        title: "Ongoing Support & Updates",
+        description:
+          "We offer ongoing support, regular updates, and maintenance to keep your software up-to-date and running smoothly.",
+      },
+    ],
+
+    technologies: [
+      {
+        name: "JavaScript",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Python",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Java",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "C#",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Node.js",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "React",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Angular",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "SQL",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "AWS",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Azure",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+    ],
+
+    faq: [
+      {
+        question: "How long does it take to develop custom software?",
+        answer:
+          "The timeline varies based on complexity, but typically, custom software development takes between 3 to 6 months, depending on the scope and features.",
+      },
+      {
+        question: "How much does custom software development cost?",
+        answer:
+          "The cost depends on the complexity, features, and platform of the software. Our pricing starts at $10,000 for basic projects and can go up to $50,000+ for enterprise-level solutions.",
+      },
+      {
+        question: "Can you integrate the software with our existing systems?",
+        answer:
+          "Yes, we specialize in building solutions that integrate seamlessly with your existing systems, whether it's CRM, ERP, or other tools.",
+      },
+      {
+        question: "What support do you offer after the software is deployed?",
+        answer:
+          "We provide ongoing support, including updates, bug fixes, and enhancements, as well as technical assistance to ensure smooth operation.",
+      },
+      {
+        question: "Will my custom software be scalable?",
+        answer:
+          "Absolutely! We design your custom software to be scalable, ensuring it can grow and evolve with your business needs.",
+      },
+    ],
+
+    caseStudies: [
+      "inventory-management-system",
+      "custom-crm-development",
+      "ecommerce-platform",
+      "enterprise-resource-planning-system",
+      "workflow-automation-tool",
+    ],
   },
   {
     id: "digital-strategy",
