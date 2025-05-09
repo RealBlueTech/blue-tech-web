@@ -904,13 +904,188 @@ export const services: Service[] = [
           "Utilize data to uncover insights and drive business strategies.",
       },
     ],
+    benefits: [
+      "Improved decision-making through data-driven insights",
+      "Increased operational efficiency and productivity",
+      "Enhanced customer experience by understanding preferences and behaviors",
+      "Real-time insights for faster, more informed actions",
+      "Identification of new business opportunities and growth areas",
+      "Cost savings by optimizing resource allocation and operations",
+      "Predictive capabilities to forecast trends and prevent potential issues",
+      "Competitive advantage through a deeper understanding of market dynamics",
+    ],
 
-    benefits: [],
-    pricing: [],
-    process: [],
-    technologies: [],
-    faq: [],
-    caseStudies: [],
+    pricing: [
+      {
+        tier: "Basic",
+        price: "$2,000",
+        period: "starting at",
+        features: [
+          "Basic data analysis",
+          "Integration with up to 2 data sources",
+          "Standard reporting and visualizations",
+          "Basic predictive analytics",
+          "1 month of support",
+        ],
+      },
+      {
+        tier: "Professional",
+        price: "$7,500",
+        period: "starting at",
+        features: [
+          "Everything in Basic",
+          "Integration with up to 5 data sources",
+          "Advanced reporting and visualizations",
+          "Real-time analytics",
+          "Custom dashboards",
+          "3 months of support",
+        ],
+        isPopular: true,
+      },
+      {
+        tier: "Enterprise",
+        price: "$15,000+",
+        period: "starting at",
+        features: [
+          "Everything in Professional",
+          "Unlimited data source integrations",
+          "Advanced machine learning models",
+          "Custom analytics solutions",
+          "Comprehensive predictive analytics",
+          "6 months of support",
+        ],
+      },
+    ],
+
+    process: [
+      {
+        step: 1,
+        title: "Consultation & Discovery",
+        description:
+          "We begin by understanding your business goals, data sources, and analytics needs through a detailed consultation.",
+      },
+      {
+        step: 2,
+        title: "Data Collection & Integration",
+        description:
+          "We collect and integrate data from various sources, ensuring that all relevant information is available for analysis.",
+      },
+      {
+        step: 3,
+        title: "Data Cleansing & Transformation",
+        description:
+          "We clean and transform the data to ensure accuracy, consistency, and relevance for analysis.",
+      },
+      {
+        step: 4,
+        title: "Data Analysis & Modeling",
+        description:
+          "Our data analysts and data scientists apply advanced analytics techniques to extract valuable insights and create predictive models.",
+      },
+      {
+        step: 5,
+        title: "Visualization & Reporting",
+        description:
+          "We create intuitive visualizations and detailed reports that make it easy to understand and act on the data insights.",
+      },
+      {
+        step: 6,
+        title: "Implementation & Optimization",
+        description:
+          "We help implement the insights into your business operations and continuously optimize the analytics models for better performance.",
+      },
+      {
+        step: 7,
+        title: "Ongoing Support & Maintenance",
+        description:
+          "We provide ongoing support to ensure that your analytics tools and insights remain relevant and continue to drive value for your business.",
+      },
+    ],
+
+    technologies: [
+      {
+        name: "Python",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "R",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "SQL",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Tableau",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Power BI",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Apache Hadoop",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Apache Spark",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Google BigQuery",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "AWS Redshift",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+      {
+        name: "Machine Learning (ML) Models",
+        logo: "/placeholder.svg?height=60&width=60",
+      },
+    ],
+
+    faq: [
+      {
+        question: "What types of data can you analyze?",
+        answer:
+          "We can analyze structured, semi-structured, and unstructured data from various sources, including databases, social media, IoT devices, and more. Our team ensures that all types of data are processed to generate meaningful insights.",
+      },
+      {
+        question: "How long does it take to get actionable insights from data?",
+        answer:
+          "The timeline depends on the complexity and volume of the data. For smaller datasets, insights can be delivered in a few days, while larger or more complex datasets might take a few weeks. We work closely with clients to set expectations and timelines.",
+      },
+      {
+        question: "How do you ensure data security during analysis?",
+        answer:
+          "We follow industry-standard best practices for data security, including encryption, secure data transfer protocols, and access control. We also comply with regulations such as GDPR and ISO 27001 to ensure your data remains secure.",
+      },
+      {
+        question:
+          "Can you help integrate data analytics into our existing systems?",
+        answer:
+          "Yes, we can seamlessly integrate data analytics solutions with your current systems, such as CRM, ERP, and other business applications, to ensure that data flows smoothly and insights are actionable within your existing workflows.",
+      },
+      {
+        question: "Do you provide training on how to use the analytics tools?",
+        answer:
+          "Absolutely! We offer training sessions to ensure your team can effectively use the analytics tools, understand the reports and dashboards, and make data-driven decisions. Our goal is to empower your team with the skills to use the insights effectively.",
+      },
+      {
+        question: "Can we track the ROI from data analytics?",
+        answer:
+          "Yes, our analytics solutions are designed to track key performance indicators (KPIs) that align with your business objectives, allowing you to measure the ROI of data-driven initiatives. We help you set up the right metrics to track and assess the impact on your business.",
+      },
+    ],
+
+    caseStudies: [
+      "ecommerce-analytics",
+      "financial-forecasting",
+      "customer-behavior-analysis",
+      "sales-performance-analysis",
+      "market-trend-prediction",
+    ],
   },
   {
     id: "custom-software",
