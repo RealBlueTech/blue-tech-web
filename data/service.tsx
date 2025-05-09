@@ -608,7 +608,51 @@ export const services: Service[] = [
       },
     ],
 
-    process: [],
+    process: [
+      {
+        step: 1,
+        title: "Assessment",
+        description:
+          "We begin by assessing your current security posture, identifying vulnerabilities and compliance gaps.",
+      },
+      {
+        step: 2,
+        title: "Planning",
+        description:
+          "We develop a tailored security strategy based on your business needs, risk profile, and industry standards.",
+      },
+      {
+        step: 3,
+        title: "Implementation",
+        description:
+          "We deploy security measures such as firewalls, encryption, intrusion detection, and access controls.",
+      },
+      {
+        step: 4,
+        title: "Testing",
+        description:
+          "We conduct penetration testing, vulnerability scans, and threat simulations to validate your defenses.",
+      },
+      {
+        step: 5,
+        title: "Monitoring",
+        description:
+          "We set up continuous monitoring systems to detect and respond to real-time threats and anomalies.",
+      },
+      {
+        step: 6,
+        title: "Training",
+        description:
+          "We provide employee training and awareness programs to reduce human error and phishing risks.",
+      },
+      {
+        step: 7,
+        title: "Maintenance",
+        description:
+          "We offer ongoing updates, audits, and compliance checks to ensure your security remains up to date.",
+      },
+    ],
+
     technologies: [
       {
         name: "Wireshark",
@@ -644,8 +688,39 @@ export const services: Service[] = [
       },
     ],
 
-    faq: [],
-    caseStudies: [],
+    faq: [
+      {
+        question: "What is a cybersecurity assessment?",
+        answer:
+          "A cybersecurity assessment evaluates your organization’s current security posture, identifies vulnerabilities, and provides recommendations for improvement. It’s a crucial first step in protecting your data and systems.",
+      },
+      {
+        question: "How often should we conduct penetration testing?",
+        answer:
+          "We recommend conducting penetration testing at least once a year or after any significant system change. Regular testing ensures that vulnerabilities are discovered and addressed before they can be exploited.",
+      },
+      {
+        question: "Can you help us become compliant with GDPR or ISO 27001?",
+        answer:
+          "Yes, we offer comprehensive compliance services to help your organization meet regulations like GDPR, ISO 27001, HIPAA, and others. We guide you through documentation, implementation, and audits.",
+      },
+      {
+        question: "What is the role of a firewall in cybersecurity?",
+        answer:
+          "A firewall acts as a barrier between your internal network and external threats, filtering traffic and blocking malicious activity. It’s a foundational layer of defense in any cybersecurity strategy.",
+      },
+      {
+        question: "Do you provide 24/7 threat monitoring?",
+        answer:
+          "Yes, we offer continuous threat monitoring services to detect and respond to suspicious activities in real time, ensuring your systems are always protected, even outside business hours.",
+      },
+    ],
+
+    caseStudies: [
+      "financial-institution-security",
+      "ecommerce-data-protection",
+      "enterprise-threat-monitoring",
+    ],
   },
   {
     id: "data-analytics",
