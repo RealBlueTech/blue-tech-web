@@ -1,6 +1,6 @@
 "use client"
 import { useParams } from 'next/navigation';
-import ProjectDetailPage from "../../../../pages/projects/route/detail"
+import ProjectDetailPage from "../../../../component/projects/project-detail/detail"
 
 export default function Project() {
   const params = useParams();

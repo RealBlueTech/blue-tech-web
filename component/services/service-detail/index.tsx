@@ -1,14 +1,14 @@
 import { notFound } from "next/navigation"
 import { getServiceBySlug } from "../../../data/service"
-import ServiceHero from "../../../component/services/service-detail/service-hero"
-import ServiceOverview from "../../../component/services/service-detail/service-overview"
-import ServiceFeatures from "../../../component/services/service-detail/service-features"
-import ServicePricing from "../../../component/services/service-detail/service-pricing"
-import ServiceProcess from "../../../component/services/service-detail/service-process"
-import ServiceTechnologies from "../../../component/services/service-detail/service-technologies"
-import ServiceFAQ from "../../../component/services/service-detail/service-faq"
-import ServiceCTA from "../../../component/services/service-detail/service-cta"
-import RelatedCaseStudies from "../../../component/services/service-detail/related-case-studies"
+import ServiceHero from "./service-hero"
+import ServiceOverview from "./service-overview"
+import ServiceFeatures from "./service-features"
+import ServicePricing from "./service-pricing"
+import ServiceProcess from "./service-process"
+import ServiceTechnologies from "./service-technologies"
+import ServiceFAQ from "./service-faq"
+import ServiceCTA from "./service-cta"
+import RelatedCaseStudies from "./related-case-studies"
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
 

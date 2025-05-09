@@ -1,6 +1,6 @@
 "use client"
 import { useParams } from 'next/navigation';
-import ServiceDetails from "../../../../pages/servicepage/route/detail"
+import ServiceDetails from "../../../../component/services/service-detail"
 
 export default function Service() {
     const params = useParams();
