@@ -496,9 +496,101 @@ export const services: Service[] = [
       },
     ],
 
-    benefits: [],
-    pricing: [],
-    process: [],
+    benefits: [
+      "Scalability to meet changing business demands",
+      "Reduced infrastructure and maintenance costs",
+      "Faster deployment and time-to-market",
+      "Enhanced data backup and disaster recovery",
+      "Improved collaboration and remote access",
+      "Access to the latest technologies and updates",
+    ],
+
+    pricing: [
+      {
+        tier: "Basic",
+        price: "$5,000",
+        period: "starting at",
+        features: [
+          "Cloud hosting setup",
+          "1TB of storage",
+          "Basic security measures",
+          "5GB of backup storage",
+          "3 months of support",
+        ],
+      },
+      {
+        tier: "Professional",
+        price: "$15,000",
+        period: "starting at",
+        features: [
+          "Everything in Basic",
+          "High availability setup",
+          "10TB of storage",
+          "Enhanced security protocols",
+          "Automated backups",
+          "6 months of support",
+        ],
+        isPopular: true,
+      },
+      {
+        tier: "Enterprise",
+        price: "$30,000+",
+        period: "starting at",
+        features: [
+          "Everything in Professional",
+          "Dedicated cloud infrastructure",
+          "Unlimited storage",
+          "24/7 monitoring and support",
+          "Custom cloud architecture",
+          "12 months of support",
+        ],
+      },
+    ],
+    process: [
+      {
+        step: 1,
+        title: "Assessment",
+        description:
+          "We begin by assessing your business needs, existing infrastructure, and cloud requirements to determine the best solution.",
+      },
+      {
+        step: 2,
+        title: "Planning",
+        description:
+          "We create a detailed cloud adoption strategy, including resource allocation, security considerations, and scalability planning.",
+      },
+      {
+        step: 3,
+        title: "Design",
+        description:
+          "Our cloud architects design a custom solution tailored to your needs, ensuring optimal performance and cost efficiency.",
+      },
+      {
+        step: 4,
+        title: "Implementation",
+        description:
+          "We deploy your cloud infrastructure, configure resources, and ensure a seamless integration with your existing systems.",
+      },
+      {
+        step: 5,
+        title: "Testing",
+        description:
+          "We rigorously test the cloud solution to ensure it meets performance, security, and scalability requirements.",
+      },
+      {
+        step: 6,
+        title: "Optimization",
+        description:
+          "We optimize your cloud environment for cost savings, performance improvements, and resource utilization.",
+      },
+      {
+        step: 7,
+        title: "Support & Maintenance",
+        description:
+          "We provide ongoing monitoring, support, and updates to ensure your cloud infrastructure remains secure and efficient.",
+      },
+    ],
+
     technologies: [
       {
         name: "Amazon Web Services (AWS)",
@@ -534,8 +626,39 @@ export const services: Service[] = [
       },
     ],
 
-    faq: [],
-    caseStudies: [],
+    faq: [
+      {
+        question: "What is cloud computing?",
+        answer:
+          "Cloud computing refers to the delivery of computing services like storage, processing power, and applications over the internet. It allows businesses to access scalable resources without maintaining on-premise infrastructure.",
+      },
+      {
+        question: "What are the benefits of cloud computing?",
+        answer:
+          "Cloud computing offers benefits such as scalability, cost savings, enhanced collaboration, security, and the ability to access the latest technologies. It also helps businesses reduce operational costs and streamline processes.",
+      },
+      {
+        question: "How secure is cloud computing?",
+        answer:
+          "Cloud providers implement strong security measures such as encryption, firewalls, and identity management. However, the security of cloud services also depends on how they are configured and managed. We ensure your cloud environment is fully secure and compliant.",
+      },
+      {
+        question: "Can I migrate my existing systems to the cloud?",
+        answer:
+          "Yes, we offer migration services to help businesses transition from on-premise infrastructure to the cloud. Our team ensures a smooth migration with minimal downtime and disruption.",
+      },
+      {
+        question: "What type of cloud computing services do you offer?",
+        answer:
+          "We offer a range of cloud computing services, including cloud infrastructure setup, managed services, disaster recovery, security solutions, and cloud-based application development.",
+      },
+    ],
+
+    caseStudies: [
+      "ecommerce-cloud-migration",
+      "financial-institution-cloud-architecture",
+      "saas-platform-cloud-optimization",
+    ],
   },
   {
     id: "cyber-security",
@@ -565,7 +688,15 @@ export const services: Service[] = [
       { title: "Incident response planning and recovery", description: "" },
       { title: "Firewall and intrusion prevention systems", description: "" },
     ],
-    benefits: [],
+    benefits: [
+      "Protection against data breaches and cyber threats",
+      "Improved customer trust and brand reputation",
+      "Compliance with industry regulations and standards",
+      "Reduced downtime and operational disruption",
+      "Safeguarding of intellectual property and sensitive data",
+      "Continuous threat monitoring and rapid incident response",
+    ],
+
     pricing: [
       {
         tier: "Basic",
